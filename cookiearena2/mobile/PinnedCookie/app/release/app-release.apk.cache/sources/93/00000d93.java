@@ -1,0 +1,89 @@
+package com.google.android.material.transition;
+
+import android.animation.Animator;
+import android.view.View;
+import android.view.ViewGroup;
+import androidx.transition.r0;
+import com.google.android.material.R;
+import d.f;
+import d.o0;
+import d.q0;
+
+/* loaded from: classes.dex */
+public final class MaterialFadeThrough extends MaterialVisibility<FadeThroughProvider> {
+    private static final float DEFAULT_START_SCALE = 0.92f;
+    @f
+    private static final int DEFAULT_THEMED_DURATION_ATTR = R.attr.motionDurationLong1;
+    @f
+    private static final int DEFAULT_THEMED_EASING_ATTR = R.attr.motionEasingEmphasizedInterpolator;
+
+    public MaterialFadeThrough() {
+        super(createPrimaryAnimatorProvider(), createSecondaryAnimatorProvider());
+    }
+
+    private static FadeThroughProvider createPrimaryAnimatorProvider() {
+        return new FadeThroughProvider();
+    }
+
+    private static VisibilityAnimatorProvider createSecondaryAnimatorProvider() {
+        ScaleProvider scaleProvider = new ScaleProvider();
+        scaleProvider.setScaleOnDisappear(false);
+        scaleProvider.setIncomingStartScale(DEFAULT_START_SCALE);
+        return scaleProvider;
+    }
+
+    @Override // com.google.android.material.transition.MaterialVisibility
+    public /* bridge */ /* synthetic */ void addAdditionalAnimatorProvider(@o0 VisibilityAnimatorProvider visibilityAnimatorProvider) {
+        super.addAdditionalAnimatorProvider(visibilityAnimatorProvider);
+    }
+
+    @Override // com.google.android.material.transition.MaterialVisibility
+    public /* bridge */ /* synthetic */ void clearAdditionalAnimatorProvider() {
+        super.clearAdditionalAnimatorProvider();
+    }
+
+    @Override // com.google.android.material.transition.MaterialVisibility
+    @f
+    public int getDurationThemeAttrResId(boolean z6) {
+        return DEFAULT_THEMED_DURATION_ATTR;
+    }
+
+    @Override // com.google.android.material.transition.MaterialVisibility
+    @f
+    public int getEasingThemeAttrResId(boolean z6) {
+        return DEFAULT_THEMED_EASING_ATTR;
+    }
+
+    /* JADX WARN: Type inference failed for: r0v0, types: [com.google.android.material.transition.FadeThroughProvider, com.google.android.material.transition.VisibilityAnimatorProvider] */
+    @Override // com.google.android.material.transition.MaterialVisibility
+    @o0
+    public /* bridge */ /* synthetic */ FadeThroughProvider getPrimaryAnimatorProvider() {
+        return super.getPrimaryAnimatorProvider();
+    }
+
+    @Override // com.google.android.material.transition.MaterialVisibility
+    @q0
+    public /* bridge */ /* synthetic */ VisibilityAnimatorProvider getSecondaryAnimatorProvider() {
+        return super.getSecondaryAnimatorProvider();
+    }
+
+    @Override // com.google.android.material.transition.MaterialVisibility, androidx.transition.s1
+    public /* bridge */ /* synthetic */ Animator onAppear(ViewGroup viewGroup, View view, r0 r0Var, r0 r0Var2) {
+        return super.onAppear(viewGroup, view, r0Var, r0Var2);
+    }
+
+    @Override // com.google.android.material.transition.MaterialVisibility, androidx.transition.s1
+    public /* bridge */ /* synthetic */ Animator onDisappear(ViewGroup viewGroup, View view, r0 r0Var, r0 r0Var2) {
+        return super.onDisappear(viewGroup, view, r0Var, r0Var2);
+    }
+
+    @Override // com.google.android.material.transition.MaterialVisibility
+    public /* bridge */ /* synthetic */ boolean removeAdditionalAnimatorProvider(@o0 VisibilityAnimatorProvider visibilityAnimatorProvider) {
+        return super.removeAdditionalAnimatorProvider(visibilityAnimatorProvider);
+    }
+
+    @Override // com.google.android.material.transition.MaterialVisibility
+    public /* bridge */ /* synthetic */ void setSecondaryAnimatorProvider(@q0 VisibilityAnimatorProvider visibilityAnimatorProvider) {
+        super.setSecondaryAnimatorProvider(visibilityAnimatorProvider);
+    }
+}

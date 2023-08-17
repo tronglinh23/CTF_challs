@@ -1,8 +1,8 @@
-./cookiearena2/forensics/arenas2-forensics-bao-cao-dang-do/MEMORY.DMP
-./nahamcon/Marmalade_5/list_secret.txt
-./CTFZONE2023/DEAD/dead-or-alive/neo4j/data/transactions/system/neostore.transaction.db.0
-./CTFZONE2023/DEAD/dead-or-alive/neo4j/data/transactions/hospitalgraph/neostore.transaction.db.0
-./hackthebox/forensics/reminiscent/flounder-pc-memdump.elf
-./.git/objects/pack/pack-9e0e4dcb2a34a735676a0482c7135bd8d96b0e89.pack
-./.git/objects/pack/pack-076f718f1de5c3b3c1def5f028f1c9f95f282e94.pack
-./sekaiCTF2022/sekaictf-2022/.git/objects/pack/pack-b95144acdb72c2c87b4ccbaa77d79657cabb243c.pack
+cookiearena2/forensics/arenas2-forensics-bao-cao-dang-do/MEMORY.DMP
+nahamcon/Marmalade_5/list_secret.txt
+CTFZONE2023/DEAD/dead-or-alive/neo4j/data/transactions/system/neostore.transaction.db.0
+CTFZONE2023/DEAD/dead-or-alive/neo4j/data/transactions/hospitalgraph/neostore.transaction.db.0
+hackthebox/forensics/reminiscent/flounder-pc-memdump.elf
+.git/objects/pack/pack-9e0e4dcb2a34a735676a0482c7135bd8d96b0e89.pack
+.git/objects/pack/pack-076f718f1de5c3b3c1def5f028f1c9f95f282e94.pack
+sekaiCTF2022/sekaictf-2022/.git/objects/pack/pack-b95144acdb72c2c87b4ccbaa77d79657cabb243c.pack

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+    <style type="text/css">
+        .ms-Spinner {
+            font-family: Segoe UI WestEuropean, Segoe UI, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif; -webkit-font-smoothing: antialiased;
+            position: absolute;
+            padding-right: 47px;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }.ms-Spinner.ms-Spinner--large {
+            height: 50px;
+        }.ms-Spinner.ms-Spinner--large.ms-Spinner-label {
+            left: 34px;top: 6px
+        }.ms-Spinner-circle {
+            padding:1px;
+            position: absolute;
+            border-radius: 100px;
+            background-color: #0078d7;
+            opacity: 0;
+        }
+        @media screen and (-ms-high-contrast:active){
+            .ms-Spinner-circle{
+                background-color:#fff
+            }
+        }
+        @media screen and (-ms-high-contrast:black-on-white)
+        {
+            .ms-Spinner-circle{
+                background-color:#000
+            }
+        }
+    </style>
+    <script type="text/javascript">
+        var rgb = { baseRed: 0, baseGreen: 120, baseBlue: 215 };
+        var fabric;
+        ! function(e) {
+            var t = function() {
+                    function e(e, t) {
+                        this.element = e, this.j = t
+                    }
+                    return e
+                }(),
+                i = function() {
+                    function e(e) {
+                        this.eightSize = .2, this.animationSpeed = 90, this.parentSize = 20, this.fadeIncrement = 0, this.circleObjects = [], this.opacities = [], this.baseRed = rgb.baseRed, this.baseGreen = rgb.baseGreen, this.baseBlue = rgb.baseBlue, this._target = e, this._init()
+                    }
+                    return e.prototype.start = function() {
+                        var e = this;
+                        this.stop(), this.interval = setInterval(function() {
+                            for (var t = e.circleObjects.length; t--;) e._fade(e.circleObjects[t], t)
+                        }, this.animationSpeed)
+                    }, e.prototype.stop = function() {
+                        clearInterval(this.interval)
+                    }, e.prototype._init = function() {
+                        this._setTargetElement(), this._setPropertiesForSize(), this._createCirclesAndArrange(), this._initializeOpacities(), this.start()
+                    }, e.prototype._setPropertiesForSize = function() {
+                        this.spinner.className.indexOf("large") > -1 && (this.parentSize = 50, this.eightSize = .1), this.offsetSize = this.eightSize, this.numCircles = 8
+                    }, e.prototype._setTargetElement = function() {
+                        this._target.className.indexOf("ms-Spinner") === -1 ? (this.spinner = document.createElement("div"), this.spinner.className = "ms-Spinner", this._target.appendChild(this.spinner)) : this.spinner = this._target
+                    }, e.prototype._initializeOpacities = function() {
+                        var e, t = 0,
+                            i = 1;
+                        for (this.fadeIncrement = 1 / this.numCircles, t; t < this.numCircles; t++) {
+                            var n = this.circleObjects[t];
+                            e = this.fadeIncrement * i++, this._setOpacity(n.element, e, t /* itemIndex*/)
+                        }
+                    }, e.prototype._fade = function(e, itemIndex) {
+                        var t = this._getOpacity(e.element, itemIndex) - this.fadeIncrement;
+                        t <= 0 && (t = 1), this._setOpacity(e.element, t, itemIndex)
+                    }, e.prototype._getOpacity = function(e, itemIndex) {
+                    	// Unused arg e
+                       	return this.opacities[itemIndex];
+                    }, e.prototype._setOpacity = function(e, t, itemIndex) {
+                    	this.opacities[itemIndex] = t;
+                    	if (e.style.opacity != null)
+                    	{
+                    		e.style.opacity = t.toString()
+                    	}
+                        else
+                        {
+                        	var red = this._alphaBlendToWhite(this.baseRed, t);
+                        	var green = this._alphaBlendToWhite(this.baseGreen, t);
+                        	var blue = this._alphaBlendToWhite(this.baseBlue, t);
+                        	e.style.backgroundColor = 'rgb(' + red + ', ' + green + ', ' + blue + ")";
+                        }
+                    },e.prototype._alphaBlendToWhite = function(c, a) {
+                    	//c > 255, c = 255;
+                        var blended = Math.floor(c + (255 - c) * a);
+                    	return blended;
+                    },e.prototype._createCircle = function() {
+                        var e = document.createElement("div");
+                        return e.className = "ms-Spinner-circle", e.style.width = e.style.height = this.parentSize * this.offsetSize + "px", e
+                    }, e.prototype._createCirclesAndArrange = function() {
+                        for (var e, i = 0, n = this.parentSize * this.offsetSize, s = 2 * Math.PI / this.numCircles, o = this.numCircles, r = .5 * (this.parentSize - n); o--;) {
+                            var a = this._createCircle(),
+                                c = Math.round(.5 * this.parentSize + r * Math.cos(i) - .5 * a.clientWidth) - .5 * n,
+                                l = Math.round(.5 * this.parentSize + r * Math.sin(i) - .5 * a.clientHeight) - .5 * n;
+                            this.spinner.appendChild(a), a.style.left = c + "px", a.style.top = l + "px", i += s, e = new t(a, o), this.circleObjects.push(e), this.opacities.push(1.0)
+                        }
+                    }, e
+                }();
+            e.Spinner = i
+        }(fabric || (fabric = {}));
+
+      window.onload = function () {
+        if (typeof window.external.LoadingAltText === 'string')
+        {
+            document.title = window.external.LoadingAltText;
+        }
+
+        var SpinnerElement = document.getElementById("theSpinner");
+
+        if  (window.external.IsDarkMode()) {
+            // Update background to neutralDark and spinner to use brighter blue
+            document.body.style.backgroundColor = "#212121";
+            rgb = { baseRed: 40, baseGreen: 153, baseBlue: 245 };
+        }
+
+        SpinnerElement.focus();
+        new fabric['Spinner'](SpinnerElement);
+      }
+
+    </script>
+</head>
+<body>
+    <div class="ms-Spinner ms-Spinner--large" id="theSpinner">
+    </div>
+</body>

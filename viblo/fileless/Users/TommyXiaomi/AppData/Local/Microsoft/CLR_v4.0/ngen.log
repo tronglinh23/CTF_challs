@@ -1,0 +1,7 @@
+﻿To learn about increasing the verbosity of the NGen log files please see http://go.microsoft.com/fwlink/?linkid=210113
+11/12/2022 10:24:10.330 [7956]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NGenTask.exe" /StopEvent:1368
+11/12/2022 10:24:10.486 [7956]: NGen task completed successfully
+11/13/2022 00:56:18.369 [9760]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NGenTask.exe" /StopEvent:1320
+11/13/2022 00:56:18.806 [9760]: NGen task completed successfully
+11/14/2022 12:05:07.561 [1204]: NGen Task starting, command line: "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\NGenTask.exe" /StopEvent:1328
+11/14/2022 12:05:08.076 [1204]: NGen task completed successfully

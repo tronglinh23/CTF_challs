@@ -1,0 +1,11 @@
+1,"fusion","GAC",0
+1,"WinRT","NotApp",1
+2,"mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",0
+2,"C:\Windows\system32\WinMetadata\Windows.Foundation.winmd",1
+2,"System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",0
+2,"System.Runtime.InteropServices.WindowsRuntime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",0
+2,"C:\Windows\system32\WinMetadata\Windows.System.winmd",1
+2,"System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",0
+2,"System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",0
+2,"System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",0
+2,"C:\Windows\system32\WinMetadata\Windows.Storage.winmd",1

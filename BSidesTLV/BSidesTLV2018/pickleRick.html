@@ -1,0 +1,43 @@
+ <script>
+    var members;
+
+    function pickleRick() {
+        $('.pickleimg').fadeIn(1000);
+        anatomyParkMembers("morty");
+    }
+
+    function anatomyParkMembers(visitor) {
+        var url = "/getMembers.html";
+        if (visitor) {
+            url += "?visitor=" + visitor
+        }
+        $.get(url, function (data) {
+            $(".result").html(data);
+            localStorage.setItem("anatomyParkMembers", data);
+        });
+    }
+
+    function statusAnatomyParkMembers() {
+        if (localStorage.getItem("anatomyParkMembers") === null) {
+            return false;
+        }
+        // DEFLATE
+        $.getJSON("/statusMembers.html?data=" + localStorage.getItem("anatomyParkMembers"), {
+            format: "json"
+        }).done(function (data) {
+            members = data;
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function () {
+        if (localStorage.getItem("anatomyParkMembers") === null) {
+            anatomyParkMembers();
+        }
+        setInterval(function () {
+            statusAnatomyParkMembers();
+        }, 10000);
+    });
+</script>
+

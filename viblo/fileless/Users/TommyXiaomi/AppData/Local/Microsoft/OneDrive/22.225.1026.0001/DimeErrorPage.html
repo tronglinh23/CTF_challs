@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Error sharing this item</title>
+    <style type="text/css">
+
+        html, body {
+            height: 100%;
+        }
+
+        body, div, button {
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+            -webkit-font-smoothing: antialiased;
+            box-sizing: border-box;
+        }
+
+        .ErrorNotification {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            padding: 40px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .ErrorText {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ErrorNotification-header {
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .ErrorNotification-header-icon {
+            display: inline-flex;
+            align-items: center;
+            margin-right: 4px;
+        }
+
+        .ErrorNotification-header-icon img {
+            width: 17px;
+            height: 17px;
+        }
+
+        .ErrorNotification-header-label {
+            display: inline-flex;
+            color: #212121;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .ErrorNotification-content {
+            width: 100%;
+            margin-bottom: 46px;
+            justify-content: center;
+            text-align: center;
+            font-size: 14px;
+            color: #666666;
+        }
+
+        .ErrorNotification-footer {
+            width: 240px;
+            flex-shrink: 0;
+            text-align: right;
+            align-items: center;
+        }
+
+        .ErrorNotification-footer button {
+            box-shadow: none;
+            color: #333333;
+            font-size: 14px;
+            font-weight: 400;
+            background-color: #f4f4f4;
+            cursor: pointer;
+            width: 100%;
+            height: 32px;
+            border: none;
+            padding: 4px 20px 6px;
+            margin-bottom: 12px;
+            overflow: visible;
+        }
+
+        .ErrorNotification-footer button:hover {
+            background-color: #eaeaea;
+        }
+
+        .darkMode {
+            color: #ffffff;
+        }
+
+        #logging {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            text-align: left;
+        }
+
+    </style>
+    
+    <script src="ErrorPage.js"></script>
+
+</head>
+<body>
+    <div class="ErrorNotification" id="ErrorNotification">
+        <div class="ErrorText">
+            <div class="ErrorNotification-header">
+                <div class="ErrorNotification-header-icon"><img src="alertIcon.png" id="errorIcon"></div>
+                <div class="ErrorNotification-header-label" id="errorTitle">Not online</div>
+            </div>
+            <div class="ErrorNotification-content" id="errorSubtext">You are not online. Connect to the internet and try again.</div>
+        </div>
+        <div class="ErrorNotification-footer" id="errorButtons">
+            <button onClick="onButtonClick()" type="submit" id="errorPrimaryButton">[Try again]</button>
+            <button onClick="onSecondaryButtonClick()" type="submit" id="errorSecondaryButton">[Open in browser]</button>
+        </div>
+    </div>
+    <!--<div id="logging">Log: <br /></div>-->
+</body>
+</html>

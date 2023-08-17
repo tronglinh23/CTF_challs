@@ -1,0 +1,32 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Tue Jul 25 23:56:16 2023
+Invocation: foremost img1 img2 
+Output directory: /home/xon1l/Desktop/ictf/rev/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: img1
+Start: Tue Jul 25 23:56:16 2023
+Length: 10 MB (10485760 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00009312.png 	      99 KB 	    4767744 	  (2560 x 1599)
+Finish: Tue Jul 25 23:56:16 2023
+------------------------------------------------------------------
+File: img2
+Start: Tue Jul 25 23:56:16 2023
+Length: 10 MB (10485760 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+1:	00009312_1.png 	      99 KB 	    4767744 	  (2560 x 1599)
+Finish: Tue Jul 25 23:56:16 2023
+
+2 FILES EXTRACTED
+	
+png:= 2
+------------------------------------------------------------------
+
+Foremost finished at Tue Jul 25 23:56:16 2023

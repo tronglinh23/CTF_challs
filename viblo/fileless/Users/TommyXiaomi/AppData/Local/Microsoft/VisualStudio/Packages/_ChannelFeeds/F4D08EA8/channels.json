@@ -1,0 +1,736 @@
+{
+  "channels": [
+    {
+      "channelUri": "https://aka.ms/vs/17/pre/channel",
+      "channelId": "VisualStudio.17.Preview",
+      "type": "Universal",
+      "version": "17.3.32505.426",
+      "displayVersion": "17.3.0 Preview 1.0",
+      "products": [
+        {
+          "id": "Microsoft.VisualStudio.Product.BuildTools",
+          "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=661273#17.3.0-pre.1.0",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2163307",
+          "supported": true
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Community",
+          "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=661273#17.3.0-pre.1.0",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2163307",
+          "supported": true,
+          "productArch": "x64"
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Enterprise",
+          "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=661273#17.3.0-pre.1.0",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2163307",
+          "supported": true,
+          "productArch": "x64"
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Professional",
+          "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=661273#17.3.0-pre.1.0",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2163307",
+          "supported": true,
+          "productArch": "x64"
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TeamExplorer",
+          "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=661273#17.3.0-pre.1.0",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2163307",
+          "supported": false,
+          "productArch": "x64"
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TestAgent",
+          "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=661273#17.3.0-pre.1.0",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2163307",
+          "supported": false
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TestController",
+          "releaseNotes": "https://go.microsoft.com/fwlink/?LinkId=661273#17.3.0-pre.1.0",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2163307",
+          "supported": false
+        }
+      ],
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Preview",
+          "description": "The Preview channel provides an early look into what’s coming in the next feature release on the Current channel.",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "zh-cn",
+          "title": "Preview",
+          "description": "通过预览频道，可以提前了解当前频道上下一个功能版本中即将推出的功能。",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "zh-tw",
+          "title": "Preview",
+          "description": "預覽通道提供了早期的快速查看，以了解目前通道的下一個功能版本。",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "cs-cz",
+          "title": "Preview",
+          "description": "Kanál Preview nabízí předběžný náhled toho, co se připravuje v příštím vydání v Aktuálním kanálu.",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "de-de",
+          "title": "Preview",
+          "description": "Der Vorschaukanal bietet einen frühen Einblick in das nächste Featurerelease im aktuellen Kanal.",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "es-es",
+          "title": "Preview",
+          "description": "El canal de vista previa ofrece una visión anticipada de lo que va a ocurrir en la próxima versión de actualización de características del canal actual.",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "fr-fr",
+          "title": "Preview",
+          "description": "Le canal Préversion permet d'avoir un aperçu de ce qui est prévu dans la prochaine version de la fonctionnalité du canal actuel.",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "it-it",
+          "title": "Preview",
+          "description": "Il canale di anteprima offre un'anteprima delle funzionalità che verranno rilasciate nella release funzionale successiva del Canale trimestrale.",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "ja-jp",
+          "title": "Preview",
+          "description": "プレビュー チャネルでは、現在のチャネルで次に予定されている機能リリースをいち早く確認できます。",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "ko-kr",
+          "title": "Preview",
+          "description": "미리 보기 채널은 현재 채널의 다음 기능 릴리스에서 제공되는 기능에 대한 초기 미리 보기를 제공합니다.",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "pl-pl",
+          "title": "Preview",
+          "description": "Kanał wersji zapoznawczych daje wczesny wgląd w to, co znajdzie się w następnej wersji funkcji w bieżącym kanale.",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "pt-br",
+          "title": "Preview",
+          "description": "O canal de Versão prévia fornece uma prévia do que está por vir no próximo lançamento de recurso no canal Atual.",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "ru-ru",
+          "title": "Preview",
+          "description": "Канал предварительной версии предоставляет ранний доступ к возможностям следующего выпуска с новыми функциями в Актуальном канале.",
+          "channelSuffix": "Preview"
+        },
+        {
+          "language": "tr-tr",
+          "title": "Preview",
+          "description": "Önizleme kanalı, Geçerli kanalda bir sonraki özellik sürümündeki yenilikler hakkında erken bir gösterim sunar.",
+          "channelSuffix": "Preview"
+        }
+      ]
+    },
+    {
+      "channelUri": "https://aka.ms/vs/17/release/channel",
+      "channelId": "VisualStudio.17.Release",
+      "type": "Universal",
+      "version": "17.2.32516.85",
+      "displayVersion": "17.2.1",
+      "products": [
+        {
+          "id": "Microsoft.VisualStudio.Product.BuildTools",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911",
+          "supported": true
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Community",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811",
+          "supported": true,
+          "productArch": "x64"
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Enterprise",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": true,
+          "productArch": "x64"
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Professional",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": true,
+          "productArch": "x64"
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TeamExplorer",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": false,
+          "productArch": "x64"
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TestAgent",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": false
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TestController",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": false
+        }
+      ],
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Current",
+          "description": "The Current channel includes the latest features and fixes that are ready for production use.",
+          "channelSuffix": ""
+        },
+        {
+          "language": "zh-cn",
+          "title": "Current",
+          "description": "当前频道包括已可供生产使用的最新功能和修补程序。",
+          "channelSuffix": ""
+        },
+        {
+          "language": "zh-tw",
+          "title": "Current",
+          "description": "目前通道包含可供生產環境使用的最新功能和修正程式。",
+          "channelSuffix": ""
+        },
+        {
+          "language": "cs-cz",
+          "title": "Current",
+          "description": "Aktuální kanál zahrnuje nejnovější funkce a opravy, které jsou připravené k použití v produkčním prostředí.",
+          "channelSuffix": ""
+        },
+        {
+          "language": "de-de",
+          "title": "Current",
+          "description": "Der aktuelle Kanal enthält die neuesten Features und Fixes, die für die Produktion bereit sind.",
+          "channelSuffix": ""
+        },
+        {
+          "language": "es-es",
+          "title": "Current",
+          "description": "El canal actual incluye las características y correcciones más recientes que están listas para el uso de producción.",
+          "channelSuffix": ""
+        },
+        {
+          "language": "fr-fr",
+          "title": "Current",
+          "description": "Le canal actuel inclut les dernières fonctionnalités et correctifs prêts pour une utilisation en production.",
+          "channelSuffix": ""
+        },
+        {
+          "language": "it-it",
+          "title": "Current",
+          "description": "Il Canale corrente include le funzionalità e le correzioni più recenti pronte per l'uso in produzione.",
+          "channelSuffix": ""
+        },
+        {
+          "language": "ja-jp",
+          "title": "Current",
+          "description": "現在のチャネルには、運用環境で使用する準備が整っている最新の機能と修正が含まれています。",
+          "channelSuffix": ""
+        },
+        {
+          "language": "ko-kr",
+          "title": "Current",
+          "description": "현재 채널에는 프로덕션용으로 사용할 준비가 된 최신 기능과 수정 사항이 포함되어 있습니다.",
+          "channelSuffix": ""
+        },
+        {
+          "language": "pl-pl",
+          "title": "Current",
+          "description": "Bieżący kanał obejmuje najnowsze funkcje i poprawki, które są gotowe do użycia w środowisku produkcyjnym.",
+          "channelSuffix": ""
+        },
+        {
+          "language": "pt-br",
+          "title": "Current",
+          "description": "O canal Atual inclui os recursos e correções mais recentes que estão prontos para uso de produção.",
+          "channelSuffix": ""
+        },
+        {
+          "language": "ru-ru",
+          "title": "Current",
+          "description": "Актуальный канал включает последние функции и исправления, готовые к использованию в рабочей среде.",
+          "channelSuffix": ""
+        },
+        {
+          "language": "tr-tr",
+          "title": "Current",
+          "description": "Geçerli kanal, üretim kullanımı için hazır olan en son özellikleri ve düzeltmeleri içerir.",
+          "channelSuffix": ""
+        }
+      ]
+    },
+    {
+      "channelUri": "https://aka.ms/vs/16/release/channel",
+      "channelId": "VisualStudio.16.Release",
+      "type": "Universal",
+      "version": "16.11.32510.428",
+      "displayVersion": "16.11.15",
+      "products": [
+        {
+          "id": "Microsoft.VisualStudio.Product.BuildTools",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes-v16.11#16.11.15",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2086102",
+          "supported": true
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Community",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes-v16.11#16.11.15",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2086016",
+          "supported": true
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Enterprise",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes-v16.11#16.11.15",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2086101",
+          "supported": true
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Professional",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes-v16.11#16.11.15",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2086101",
+          "supported": true
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TeamExplorer",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes-v16.11#16.11.15",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2086101",
+          "supported": false
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TestAgent",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes-v16.11#16.11.15",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2086101",
+          "supported": false
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TestController",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes-v16.11#16.11.15",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2086101",
+          "supported": false
+        }
+      ],
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        },
+        {
+          "language": "zh-cn",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        },
+        {
+          "language": "zh-tw",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        },
+        {
+          "language": "cs-cz",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        },
+        {
+          "language": "de-de",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        },
+        {
+          "language": "es-es",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        },
+        {
+          "language": "fr-fr",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        },
+        {
+          "language": "it-it",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        },
+        {
+          "language": "ja-jp",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        },
+        {
+          "language": "ko-kr",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        },
+        {
+          "language": "pl-pl",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        },
+        {
+          "language": "pt-br",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        },
+        {
+          "language": "ru-ru",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        },
+        {
+          "language": "tr-tr",
+          "title": "Release",
+          "description": "",
+          "channelSuffix": ""
+        }
+      ]
+    },
+    {
+      "channelUri": "https://aka.ms/vs/17/release.LTSC.17.0/channel",
+      "channelId": "VisualStudio.17.Release.LTSC.17.0",
+      "type": "Universal",
+      "version": "17.0.32428.209",
+      "displayVersion": "17.0.10",
+      "expirationDate": "2023-07-11T17:00:00+00:00",
+      "products": [
+        {
+          "id": "Microsoft.VisualStudio.Product.BuildTools",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.10",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911",
+          "supported": true
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Community",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.10",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811",
+          "supported": false
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Enterprise",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.10",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": true
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Professional",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.10",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": true
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TeamExplorer",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.10",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": false
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TestAgent",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.10",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": false
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TestController",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.0#17.0.10",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": false
+        }
+      ],
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.0",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.0 feature level. ",
+          "channelSuffix": "LTSC 17.0"
+        }
+      ]
+    },
+    {
+      "channelUri": "https://aka.ms/vs/17/release.LTSC.17.2/channel",
+      "channelId": "VisualStudio.17.Release.LTSC.17.2",
+      "type": "Universal",
+      "version": "17.2.32516.85",
+      "displayVersion": "17.2.1",
+      "expirationDate": "2024-01-09T17:00:00+00:00",
+      "products": [
+        {
+          "id": "Microsoft.VisualStudio.Product.BuildTools",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179911",
+          "supported": true
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Community",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2179811",
+          "supported": false,
+          "productArch": "x64"
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Enterprise",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": true,
+          "productArch": "x64"
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.Professional",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": true,
+          "productArch": "x64"
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TeamExplorer",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": false,
+          "productArch": "x64"
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TestAgent",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": false
+        },
+        {
+          "id": "Microsoft.VisualStudio.Product.TestController",
+          "releaseNotes": "https://docs.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.2#17.2.1",
+          "license": "https://go.microsoft.com/fwlink/?LinkId=2180117",
+          "supported": false
+        }
+      ],
+      "localizedResources": [
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "This Long-Term Servicing Channel (LTSC) includes security and high priority servicing bug fixes while remaining at the 17.2 feature level. ",
+          "channelSuffix": "LTSC 17.2"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "此长期服务渠道(LTSC)包括安全性和高优先级服务 bug 修复，同时保留在 17.2 功能级别。 ",
+          "channelSuffix": "LTSC 17.2"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "此長期維護通道 (LTSC) 包括安全性和高優先順序維護錯誤修正，但仍處於 17.2 功能層級。 ",
+          "channelSuffix": "LTSC 17.2"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "Tato Kanál pro dlouhodobou údržbu (LTSC) zahrnuje opravy chyb údržby zabezpečení a vysoké priority a zároveň zůstává na úrovni funkcí 17.2. ",
+          "channelSuffix": "LTSC 17.2"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "Dieser Long-Term Servicing Channel (LTSC) enthält Fehlerbehebungen für Sicherheits- und Wartungsfehler mit hoher Priorität, während er auf der Featureebene 17.2 bleibt.",
+          "channelSuffix": "LTSC 17.2"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "Este Canal de mantenimiento a largo plazo (LTSC) incluye seguridad y correcciones de alta prioridad para atender los errores en el nivel de características de 17,2. ",
+          "channelSuffix": "LTSC 17.2"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "Ce Canal de maintenance à long terme (LTSC) inclut des résolutions de bogues de maintenance de haute priorité et de sécurité tout en restant au niveau de fonctionnalité 17.2. ",
+          "channelSuffix": "LTSC 17.2"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "Questo canale LTSC (Long-Term Servicing Channel) include correzioni di bug di sicurezza e di manutenzione con priorità elevata, mentre rimane al livello di funzionalità della versione 17.2. ",
+          "channelSuffix": "LTSC 17.2"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "この長期サービス チャネル (LTSC) には、17.2 機能レベルを維持しつつも、セキュリティおよび優先順位の高いサービスのバグ修正が含まれています。 ",
+          "channelSuffix": "LTSC 17.2"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "이 LTSC(장기 서비스 채널)에는 17.2 기능 수준에 남아 있는 동안 보안 및 우선 순위가 높은 서비스 버그 수정이 포함됩니다. ",
+          "channelSuffix": "LTSC 17.2"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "Ten kanał Long-Term Servicing Channel (LTSC) zawiera poprawki usterek dotyczących obsługi zabezpieczeń i wysokiego priorytetu, jednocześnie pozostając na poziomie funkcji 17.2. ",
+          "channelSuffix": "LTSC 17.2"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "Este Canal de Manutenção em Longo Prazo (LTSC) inclui correções de bugs de manutenção de segurança e de alta prioridade, permanecendo no nível de recurso 17.2. ",
+          "channelSuffix": "LTSC 17.2"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "Этот канал Long-Term Servicing Channel (LTSC) включает исправления ошибок безопасности и высокоприоритетных ошибок обслуживания, но компоненты остаются на уровне версии 17.2. ",
+          "channelSuffix": "LTSC 17.2"
+        },
+        {
+          "language": "en-us",
+          "title": "LTSC version 17.2",
+          "description": "Bu Uzun Süreli Bakım Kanalı (LTSC), 17.2 özellik düzeyinde kalarak güvenlik ve yüksek öncelikli bakım hata düzeltmelerini içerir. ",
+          "channelSuffix": "LTSC 17.2"
+        }
+      ]
+    }
+  ],
+	"signature" : {
+			"signInfo" : {
+					"signatureMethod" : "sha256RSA_cng",
+					"digestMethod" : "sha256",
+					"digestValue" : "Rcq9XCkjqYRD88xxJfQHj0SjBCMipvoEKc61OHemLKs=",
+					"canonicalization" : ""
+			},
+			"signatureValue" : "qPMJ89/tfP9UCTe6+I4gtfwrqd8phtcbA2RZ5MIU1c+EKaATG9PczRTl+Z1Y/RRzJpjn3R0zZvSwJkVphybImRgBGenaTobM4uIKasfkGyK912BW6c92ZMGkC/EktwSfKvNfkolL28F7rCQsh4scr42y8qwW6ibrmWTA9g0tQWAdgLn8Zn/IB2OroqCNtf9jvY8uYuw4glUD8LAhcToXxwLtwQO10zKdY7ERGaivAKlfCr+dev1SQC8wsRu1TNAeqiLAV6rBg/c6WS42kQ/O1eVczjYVKfyZBKIcY5TZyp0GrQsOKxl2QJ8tC/1HR6Lm79g4ozlNmYK/H6yMXTvrTQ==",
+			"keyInfo" : {
+					"keyValue" : {
+							"rsaKeyValue" : {
+									"modulus" : "0OTPj7P1+wTbr+Qf9COrqA8I9DSTqNSq1UKju4IEV3HJJck61i+MTEoYyKLtiLG2Jxeu8F81QKuTpuKHvi380gzs43G+prNNIAaNDkGqsENQYo8iezbw3/NCNX1vTi++irdFqXNs6xoc3B3W+7qT678b0jTVL8St7IMO2E7d9eNdL6RKfMnwRJf4XfGcwL+OwwoCeY9c5tvebNUVWRzaejKIkBVThApuAMCtpdvIvmBEdSTuCKZUx+OLr81/aEZyR2jL1s2RKaMz8uIzTtgw6m3DbOM4ewFjIRNT1hVQPghyPxJ+ZwErwry5rkf7fKuG3PF0fECGSUEqftlOptpXTQ==",
+									"exponent" : "AQAB"
+							}
+					},
+					"x509Data" : [
+						"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"
+					]
+			},
+			"counterSign" : {
+					"x509Data" : [
+						"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"
+					],
+					"timestamp" : "2022-05-17-11:22:45",
+					"counterSignatureMethod" : "timeStamp",
+					"counterSignature" : "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"
+			}
+	}
+
+}

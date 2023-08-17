@@ -1,0 +1,5 @@
+{
+    "uiaVersion": "1.0",
+    "uiaTimeout": 300,
+    "initialUrl": "https://takeout.google.com/settings/takeout"
+}

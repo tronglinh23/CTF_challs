@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  123333
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+    const wait = (doc) => new Promise(async (resolve) => {
+    while(true) {
+      try{
+        doc.document;
+        console.log(doc.document);
+      } catch {
+        resolve();
+        break;
+      }
+      await sleep(20);
+      }
+    })
+
+    k = open("https://webhook.site/c056f307-c887-4fe1-878d-aa2460319713")
+    wait(k).then(console.log).catch(console.error)
+  </script>
+</body>
+</html>

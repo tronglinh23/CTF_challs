@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Main Content</title>
+  <meta name="description" content="Main Content">
+  <meta name="author" content="Alex Vallejo">
+</head>
+
+<body>
+    <h3 id="title_text">Test Page</h3>
+    <button id="copy_button" onclick="copy()">Copy to clipboard</button>
+    <br/> <br/>
+    <button id="finished_loading_button" onclick="finished_loading()">Finished Loading</button>
+    <br/> <br/>
+    <button id="resize_button" onclick="resize()">Resize</button>
+    <br/> <br/>
+    <button id="log_button" onclick="log()">Log</button>
+
+    <script>
+    // Call the finished loading function after a short delay
+    setTimeout(function() { finished_loading(); }, 100 /*miliseconds*/);
+
+    function copy()
+    {
+        window.external.CopyToClipboard("Some copied text");
+    }
+
+    function resize()
+    {
+        window.external.Resize(600,600);
+    }
+
+    function log()
+    {
+        window.external.Log("Some logged text");
+    }
+
+    function finished_loading()
+    {
+        window.external.PageFinishedLoading();
+    }
+    </script>
+</body>
+</html>

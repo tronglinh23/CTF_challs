@@ -1,0 +1,90 @@
+2023-08-12 10:26:25.467+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2023-08-12 10:26:25.498+0000 INFO  Starting...
+2023-08-12 10:26:27.306+0000 INFO  ======== Neo4j 5.8.0 ========
+2023-08-12 10:26:27.345+0000 INFO  This instance is ServerId{66797e53} (66797e53-8703-4641-9f10-a7dad5ba9f6b)
+2023-08-12 10:26:30.025+0000 INFO  Default database 'hospitalgraph' is created
+2023-08-12 10:26:30.625+0000 INFO  Sending metrics to CSV file at /var/lib/neo4j/metrics
+2023-08-12 10:26:30.659+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+2023-08-12 10:26:30.664+0000 INFO  Bolt (Routing) enabled on 0.0.0.0:7688.
+2023-08-12 10:26:31.356+0000 INFO  Remote interface available at http://localhost:7474/
+2023-08-12 10:26:31.359+0000 INFO  id: 0491E13BEE0A743ED52D31202DFB4BC0725012E48BD7C7009E59683B55E7A929
+2023-08-12 10:26:31.359+0000 INFO  name: system
+2023-08-12 10:26:31.360+0000 INFO  creationDate: 2023-08-12T10:26:28.769Z
+2023-08-12 10:26:31.360+0000 INFO  Started.
+2023-08-12 10:32:54.989+0000 INFO  Neo4j Server shutdown initiated by request
+2023-08-12 10:32:54.990+0000 INFO  Stopping...
+2023-08-12 10:33:02.426+0000 INFO  Stopped.
+2023-08-12 10:33:12.462+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2023-08-12 10:33:12.500+0000 INFO  Starting...
+2023-08-12 10:33:14.328+0000 INFO  ======== Neo4j 5.8.0 ========
+2023-08-12 10:33:14.354+0000 INFO  This instance is ServerId{66797e53} (66797e53-8703-4641-9f10-a7dad5ba9f6b)
+2023-08-12 10:33:16.463+0000 INFO  Sending metrics to CSV file at /var/lib/neo4j/metrics
+2023-08-12 10:33:16.496+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+2023-08-12 10:33:16.499+0000 INFO  Bolt (Routing) enabled on 0.0.0.0:7688.
+2023-08-12 10:33:17.172+0000 INFO  Remote interface available at http://localhost:7474/
+2023-08-12 10:33:17.175+0000 INFO  id: 0491E13BEE0A743ED52D31202DFB4BC0725012E48BD7C7009E59683B55E7A929
+2023-08-12 10:33:17.175+0000 INFO  name: system
+2023-08-12 10:33:17.175+0000 INFO  creationDate: 2023-08-12T10:26:28.769Z
+2023-08-12 10:33:17.175+0000 INFO  Started.
+2023-08-12 10:34:28.596+0000 INFO  Neo4j Server shutdown initiated by request
+2023-08-12 10:34:28.596+0000 INFO  Stopping...
+2023-08-12 10:34:35.279+0000 INFO  Stopped.
+2023-08-12 10:38:31.833+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2023-08-12 10:38:31.865+0000 INFO  Starting...
+2023-08-12 10:38:33.764+0000 INFO  ======== Neo4j 5.8.0 ========
+2023-08-12 10:38:33.779+0000 INFO  This instance is ServerId{66797e53} (66797e53-8703-4641-9f10-a7dad5ba9f6b)
+2023-08-12 10:38:35.701+0000 INFO  Sending metrics to CSV file at /var/lib/neo4j/metrics
+2023-08-12 10:38:35.738+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+2023-08-12 10:38:35.741+0000 INFO  Bolt (Routing) enabled on 0.0.0.0:7688.
+2023-08-12 10:38:36.383+0000 INFO  Remote interface available at http://localhost:7474/
+2023-08-12 10:38:36.386+0000 INFO  id: 0491E13BEE0A743ED52D31202DFB4BC0725012E48BD7C7009E59683B55E7A929
+2023-08-12 10:38:36.386+0000 INFO  name: system
+2023-08-12 10:38:36.387+0000 INFO  creationDate: 2023-08-12T10:26:28.769Z
+2023-08-12 10:38:36.387+0000 INFO  Started.
+2023-08-12 10:47:02.390+0000 ERROR [bolt-7] Terminating connection due to unexpected error
+org.neo4j.bolt.protocol.error.streaming.BoltStreamingWriteException: Failed to transmit operation result: Response write failure
+	at org.neo4j.bolt.protocol.common.fsm.response.NetworkResponseHandler.onSuccess(NetworkResponseHandler.java:184) ~[neo4j-bolt-5.8.0.jar:5.8.0]
+	at org.neo4j.bolt.protocol.common.fsm.AbstractStateMachine.after(AbstractStateMachine.java:112) ~[neo4j-bolt-5.8.0.jar:5.8.0]
+	at org.neo4j.bolt.protocol.common.fsm.AbstractStateMachine.process(AbstractStateMachine.java:88) ~[neo4j-bolt-5.8.0.jar:5.8.0]
+	at org.neo4j.bolt.protocol.common.connector.connection.AtomicSchedulingConnection.lambda$submit$4(AtomicSchedulingConnection.java:122) ~[neo4j-bolt-5.8.0.jar:5.8.0]
+	at org.neo4j.bolt.protocol.common.connector.connection.AtomicSchedulingConnection.executeJob(AtomicSchedulingConnection.java:344) ~[neo4j-bolt-5.8.0.jar:5.8.0]
+	at org.neo4j.bolt.protocol.common.connector.connection.AtomicSchedulingConnection.doExecuteJobs(AtomicSchedulingConnection.java:279) ~[neo4j-bolt-5.8.0.jar:5.8.0]
+	at org.neo4j.bolt.protocol.common.connector.connection.AtomicSchedulingConnection.executeJobs(AtomicSchedulingConnection.java:221) ~[neo4j-bolt-5.8.0.jar:5.8.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: io.netty.channel.StacklessClosedChannelException
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.write(Object, ChannelPromise)(Unknown Source) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+2023-08-12 11:40:17.553+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: Lexical error at line 4, column 5.  Encountered: <EOF> after : "", reference 8cf9a5ae-c55c-411f-b281-e29b1adc7a85.
+2023-08-12 11:42:35.279+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: Lexical error at line 4, column 5.  Encountered: <EOF> after : "", reference b4eafa0b-91fe-45b7-8ead-d21a9aeddb57.
+2023-08-12 11:45:48.974+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: Lexical error at line 4, column 5.  Encountered: <EOF> after : "", reference f3a899f5-7eb8-4d9c-88c6-6ed87c0518d2.
+2023-08-12 11:46:28.319+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: Lexical error at line 5, column 5.  Encountered: <EOF> after : "", reference 8ad90451-0823-4c56-b3f3-5c136b3dded7.
+2023-08-12 11:53:56.947+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.General.UnknownError]: Lexical error at line 4, column 5.  Encountered: <EOF> after : "", reference 8152cebf-f9a9-46fb-b827-6d8d7aceee19.
+2023-08-12 11:56:24.638+0000 INFO  Neo4j Server shutdown initiated by request
+2023-08-12 11:56:24.639+0000 INFO  Stopping...
+2023-08-12 11:56:31.703+0000 INFO  Stopped.
+2023-08-12 11:58:25.035+0000 INFO  The license agreement was accepted with environment variable NEO4J_ACCEPT_LICENSE_AGREEMENT=yes when the Software was started.
+
+
+2023-08-12 11:58:25.070+0000 INFO  Starting...
+2023-08-12 11:58:26.980+0000 INFO  ======== Neo4j 5.8.0 ========
+2023-08-12 11:58:27.052+0000 INFO  This instance is ServerId{66797e53} (66797e53-8703-4641-9f10-a7dad5ba9f6b)
+2023-08-12 11:58:28.923+0000 INFO  Sending metrics to CSV file at /var/lib/neo4j/metrics
+2023-08-12 11:58:28.970+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+2023-08-12 11:58:28.977+0000 INFO  Bolt (Routing) enabled on 0.0.0.0:7688.
+2023-08-12 11:58:29.638+0000 INFO  Remote interface available at http://localhost:7474/
+2023-08-12 11:58:29.641+0000 INFO  id: 0491E13BEE0A743ED52D31202DFB4BC0725012E48BD7C7009E59683B55E7A929
+2023-08-12 11:58:29.641+0000 INFO  name: system
+2023-08-12 11:58:29.641+0000 INFO  creationDate: 2023-08-12T10:26:28.769Z
+2023-08-12 11:58:29.642+0000 INFO  Started.
+2023-08-12 12:00:26.901+0000 INFO  Neo4j Server shutdown initiated by request
+2023-08-12 12:00:26.901+0000 INFO  Stopping...
+2023-08-12 12:00:33.768+0000 INFO  Stopped.

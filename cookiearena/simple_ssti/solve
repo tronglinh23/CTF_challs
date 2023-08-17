@@ -1,0 +1,7 @@
+thành công RCE, giờ cần một số trick để bypass được filters
+để đọc được flag ta cần thực hiện lệnh: cat /flag.txt
+
+space bị filter nên ta dùng ${IFS} => thử đọc file run.py thì thành công đọc được. Tiếp theo vẫn k thấy được /flag.txt, sau khoảng 2 tiếng đồng hồ, thử qua nhiều payload SSTI khác nhau từ reverse shell, curl,... thì mình nghĩ đến filter cả ký tự / nên tìm cách để thay thế. Sau nhiều kiểu thay thế khác nhau, thì nghĩ đến dùng utf-8 để encode và thành công đọc được file flag.
+
+QUa bài này thấy đc nó k hề very easy :) Và phải có một số kinh nghiệm mới nghĩ đến các cách để bypass được filter.
+Mình cứ nghĩ payload SSTI, chưa đủ để đọc flag nên phí rất nhiều thời gian tìm kiếm các payloads khác. Thành quả tìm được hẳn 3 payload khác nhau để RCE :) và cuối cùng kphai mà do filter / 

@@ -1,0 +1,26 @@
+2022-05-24 15:25:26.228+07:00 [7888:002] [Info] [RegularSkypeApplication] App constructor: process started. App version:14.53.77.0
+2022-05-24 15:25:27.996+07:00 [7888:002] [Info] [Lifecycle] OnSuspending: Early exit because ReactHost was never initialized
+2022-05-24 15:40:47.652+07:00 [7888:002] [Info] [Lifecycle] OnResuming: Start
+2022-05-24 15:40:48.508+07:00 [7888:002] [Info] [Lifecycle] OnResuming (Early exit because ReactHost was never initialized)
+2022-05-24 15:40:53.477+07:00 [7888:002] [Info] [RegularSkypeApplication] OnBackgroundActivated c47bcf85-2d97-42de-a138-70780981f1d1
+2022-05-24 15:40:54.726+07:00 [7888:004] [Info] [RegularSkypeApplication] BackgroundTaskCancelled reason : LoggingOff
+2022-05-24 15:40:55.039+07:00 [7888:002] [Info] [ExternalApi] Notifications enabled
+2022-05-24 15:40:55.088+07:00 [7888:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: no bytecode file present to delete
+2022-05-24 15:40:55.088+07:00 [7888:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: starting host
+2022-05-24 15:40:55.101+07:00 [7888:002] [Info] [RNW] ReactInstanceManager: constructor
+2022-05-24 15:40:55.101+07:00 [7888:002] [Info] [RegularSkypeApplication] EnsureReactNativeHostStarted: host started
+2022-05-24 15:40:55.101+07:00 [7888:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - entry
+2022-05-24 15:40:55.101+07:00 [7888:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - execute/returning existing null context
+2022-05-24 15:40:55.101+07:00 [7888:002] [Info] [ThemedPage] NotifyReactHostReady
+2022-05-24 15:40:55.101+07:00 [7888:002] [Info] [RegularSkypeApplication] GetReactContext: Creating ReactNative context (if not yet)
+2022-05-24 15:40:55.101+07:00 [7888:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - entry
+2022-05-24 15:40:55.101+07:00 [7888:002] [Info] [RNW] ReactInstanceManager: GetOrCreateReactContextAsync - execute
+2022-05-24 15:40:55.273+07:00 [7888:002] [Warn] [RegularSkypeApplication] GetReactContext: RawNotification: ReactContext creation canceled
+2022-05-24 15:40:55.273+07:00 [7888:002] [Info] [RegularSkypeApplication] OnBackgroundActivated completing deferral
+2022-05-24 15:40:55.304+07:00 [7888:002] [Info] [Lifecycle] OnSuspendingImplAsync: Start
+2022-05-24 15:40:55.304+07:00 [7888:002] [Info] [RegularSkypeApplication] PauseReactNativeHost: pausing host
+2022-05-24 15:40:55.304+07:00 [7888:002] [Info] [RegularSkypeApplication] PauseReactNativeHost: host paused
+2022-05-24 15:40:55.304+07:00 [7888:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - entry
+2022-05-24 15:40:55.304+07:00 [7888:002] [Info] [RNW] ReactInstanceManager: TryGetReactContextAsync - execute/returning existing null context
+2022-05-24 15:40:55.304+07:00 [7888:002] [Info] [RegularSkypeApplication] WaitForAllBackgroundTasksCompletionReturned. Remaining time: 4480ms
+2022-05-24 15:40:55.353+07:00 [7888:002] [Info] [RegularSkypeApplication] OnSuspendingImplAsync: Complete

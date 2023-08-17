@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Tue Aug  8 22:29:42 2023
+Invocation: foremost Flag.pdf 
+Output directory: /home/xon1l/Desktop/viblo/superfile/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: Flag.pdf
+Start: Tue Aug  8 22:29:42 2023
+Length: 415 B (415 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.zip 	      415 B 	          0 	 
+Finish: Tue Aug  8 22:29:42 2023
+
+1 FILES EXTRACTED
+	
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Tue Aug  8 22:29:42 2023

@@ -1,0 +1,9 @@
+{% extends 'layout.jinja2' %}
+{% block content %}
+    <div class="container">
+        <p class="important"><a href="/vuln?param=<script>alert(1)</script>">vuln(csrf) page</a></p>
+        <p class="important"><a href="/memo?memo=hello">memo</a></p>
+        <p class="important"><a href="/admin/notice_flag">notice flag</a></p>
+        <p class="important"><a href="/flag">flag</a></p>
+    </div> <!-- /container -->
+{% endblock %}

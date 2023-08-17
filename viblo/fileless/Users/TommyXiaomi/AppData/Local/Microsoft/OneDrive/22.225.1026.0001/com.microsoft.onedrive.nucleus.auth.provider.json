@@ -1,0 +1,10 @@
+{
+  "name": "com.microsoft.onedrive.nucleus.auth.provider",
+  "description": "Native authentication provider for Microsoft Nucleus protocol.",
+  "path": "Microsoft.SharePoint.NativeMessagingClient.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ndjpnladcallmjemlbaebfadecfhkepb/",
+    "chrome-extension://gggmmkjegpiggikcnhidnjjhmicpibll/"
+  ]
+}
