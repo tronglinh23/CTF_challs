@@ -1,0 +1,32 @@
+version: "3"
+
+services:
+  server:
+    build: ./server
+    restart: unless-stopped
+    ports:
+      - "0.0.0.0:5000:5000"
+    env_file: .env
+    networks:
+      - network_server
+      - network_app
+  app:
+    build:
+      context: ./app
+    image: rcelectron_app
+  bot:
+    build: ./bot
+    restart: unless-stopped
+    tty: true
+    privileged: true
+    ports:
+      - "5001:5001"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./bot/config.json:/app/config.json:ro
+    networks:
+      - network_server
+networks:
+  network_server:
+  network_app:
+

@@ -1,0 +1,1 @@
+{"version":"0.1.0","name":"strapi-in","dependencies":{"@strapi/plugin-i18n":{"version":"4.12.4"},"@strapi/plugin-users-permissions":{"version":"4.12.4"},"@strapi/strapi":{"version":"4.12.4"},"better-sqlite3":{"version":"8.5.0"},"strapi-plugin-email-designer":{"version":"2.1.2"}}}

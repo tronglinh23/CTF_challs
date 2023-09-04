@@ -1,0 +1,5 @@
+{
+    "docker_image": "rcelectron_app",
+    "worker_count": 2,
+    "docker_network": "rcelectron_network_app"
+}
