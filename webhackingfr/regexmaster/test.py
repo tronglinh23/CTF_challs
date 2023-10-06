@@ -1,0 +1,1 @@
+print(len("FLAG{im_r/e/g/e/xmaster////}"))

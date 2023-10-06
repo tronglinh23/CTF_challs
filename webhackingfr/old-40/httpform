@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE items [
+<!ELEMENT items (item*)>
+<!ATTLIST items burpVersion CDATA "">
+<!ATTLIST items exportTime CDATA "">
+<!ELEMENT item (time, url, host, port, protocol, method, path, extension, request, status, responselength, mimetype, response, comment)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT host (#PCDATA)>
+<!ATTLIST host ip CDATA "">
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT protocol (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT path (#PCDATA)>
+<!ELEMENT extension (#PCDATA)>
+<!ELEMENT request (#PCDATA)>
+<!ATTLIST request base64 (true|false) "false">
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT responselength (#PCDATA)>
+<!ELEMENT mimetype (#PCDATA)>
+<!ELEMENT response (#PCDATA)>
+<!ATTLIST response base64 (true|false) "false">
+<!ELEMENT comment (#PCDATA)>
+]>
+<items burpVersion="2022.8.2" exportTime="Thu Oct 05 16:31:04 UTC 2023">
+  <item>
+    <time>Thu Oct 05 16:30:51 UTC 2023</time>
+    <url><![CDATA[https://webhacking.kr/challenge/web-29/?no=1&id=guest&pw=guest]]></url>
+    <host ip="202.182.106.159">webhacking.kr</host>
+    <port>443</port>
+    <protocol>https</protocol>
+    <method><![CDATA[GET]]></method>
+    <path><![CDATA[/challenge/web-29/?no=1&id=guest&pw=guest]]></path>
+    <extension>null</extension>
+    <request base64="true"><![CDATA[R0VUIC9jaGFsbGVuZ2Uvd2ViLTI5Lz9ubz0xJmlkPWd1ZXN0JnB3PWd1ZXN0IEhUVFAvMS4xDQpIb3N0OiB3ZWJoYWNraW5nLmtyDQpDb29raWU6IFBIUFNFU1NJRD1mdWFiaTBwNzJobGQ1YmY2OXRlNDQ1b2VjbA0KU2VjLUNoLVVhOiAiQ2hyb21pdW0iO3Y9IjExNiIsICJOb3QpQTtCcmFuZCI7dj0iMjQiLCAiR29vZ2xlIENocm9tZSI7dj0iMTE2Ig0KU2VjLUNoLVVhLU1vYmlsZTogPzANClNlYy1DaC1VYS1QbGF0Zm9ybTogIkxpbnV4Ig0KVXBncmFkZS1JbnNlY3VyZS1SZXF1ZXN0czogMQ0KVXNlci1BZ2VudDogTW96aWxsYS81LjAgKFgxMTsgTGludXggeDg2XzY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTE2LjAuMC4wIFNhZmFyaS81MzcuMzYNCkFjY2VwdDogdGV4dC9odG1sLGFwcGxpY2F0aW9uL3hodG1sK3htbCxhcHBsaWNhdGlvbi94bWw7cT0wLjksaW1hZ2UvYXZpZixpbWFnZS93ZWJwLGltYWdlL2FwbmcsKi8qO3E9MC44LGFwcGxpY2F0aW9uL3NpZ25lZC1leGNoYW5nZTt2PWIzO3E9MC43DQpTZWMtRmV0Y2gtU2l0ZTogc2FtZS1vcmlnaW4NClNlYy1GZXRjaC1Nb2RlOiBuYXZpZ2F0ZQ0KU2VjLUZldGNoLVVzZXI6ID8xDQpTZWMtRmV0Y2gtRGVzdDogZG9jdW1lbnQNClJlZmVyZXI6IGh0dHBzOi8vd2ViaGFja2luZy5rci9jaGFsbGVuZ2Uvd2ViLTI5Lw0KQWNjZXB0LUVuY29kaW5nOiBnemlwLCBkZWZsYXRlDQpBY2NlcHQtTGFuZ3VhZ2U6IGVuLUdCLGVuLVVTO3E9MC45LGVuO3E9MC44LHZpO3E9MC43DQpDb25uZWN0aW9uOiBjbG9zZQ0KDQo=]]></request>
+    <status>200</status>
+    <responselength>483</responselength>
+    <mimetype>HTML</mimetype>
+    <response base64="true"><![CDATA[SFRUUC8xLjEgMjAwIE9LDQpEYXRlOiBUaHUsIDA1IE9jdCAyMDIzIDE2OjMwOjUyIEdNVA0KU2VydmVyOiBBcGFjaGUNCkV4cGlyZXM6IFRodSwgMTkgTm92IDE5ODEgMDg6NTI6MDAgR01UDQpDYWNoZS1Db250cm9sOiBuby1zdG9yZSwgbm8tY2FjaGUsIG11c3QtcmV2YWxpZGF0ZQ0KUHJhZ21hOiBuby1jYWNoZQ0KVmFyeTogQWNjZXB0LUVuY29kaW5nDQpDb250ZW50LUxlbmd0aDogMTk4DQpDb25uZWN0aW9uOiBjbG9zZQ0KQ29udGVudC1UeXBlOiB0ZXh0L2h0bWw7IGNoYXJzZXQ9VVRGLTgNCg0KPGh0bWw+CjxoZWFkPgo8dGl0bGU+Q2hhbGxlbmdlIDQwPC90aXRsZT4KPHN0eWxlPiAKaW5wdXR7IHdpZHRoOjE1MHB4OyB9CnRke3BhZGRpbmc6MTA7fQo8L3N0eWxlPgo8L2hlYWQ+Cjxib2R5IGJnY29sb3I9Z3JheT4KPGJyPjxicj48Yj5TdWNjZXNzIC0gZ3Vlc3Q8L2I+PG1ldGEgaHR0cC1lcXVpdj1yZWZyZXNoIGNvbnRlbnQ9Mjt1cmw9Li8+]]></response>
+    <comment></comment>
+  </item>
+</items>
