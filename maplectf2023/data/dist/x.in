@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table View</title>
+    <style>
+    table, th, td {
+        border-collapse: collapse;
+    }
+    table, td {
+        border: 1px solid black;
+    }
+    th {
+        border: 2px solid black;
+    }
+    </style>
+    <script>
+    function add_filter() {
+        var node = document.getElementById("filter-template").cloneNode(true);
+        node.removeAttribute("id");
+        node.style.display = "";
+        document.getElementById("filters").appendChild(node);
+    }
+    function add_order() {
+        var node = document.getElementById("order-template").cloneNode(true);
+        node.removeAttribute("id");
+        node.style.display = "";
+        document.getElementById("orders").appendChild(node);
+    }
+    </script>
+</head>
+<body>
+
+    <h2>Data Explorer: Demo Version</h2>
+    <div>You have 997 free queries left. Talk to your sales rep to upgrade to the full version and get unlimited queries!</div>
+    <form method="post" action="/upgrade/686220e0-6aa2-47d2-849d-7cbc2b05799e">
+        <label for="key">License Key:</label>
+        <input type="text" id="key" name="key">
+        <input type="submit" value="Upgrade">
+    </form>
+    <hr>
+
+    <table>
+        <tr>
+        
+            <th>aaa</th>
+        
+            <th>pos</th>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>1</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>45</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>67</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>77</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>99</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>103</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>110</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>114</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>125</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>140</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>2</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>26</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>33</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>51</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>74</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>104</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>123</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>129</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>3</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>24</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>38</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>43</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>54</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>56</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>85</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>87</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>93</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>119</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>128</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>4</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>17</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>20</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>23</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>29</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>35</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>36</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>53</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>55</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>84</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>86</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>89</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>117</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>135</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>139</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>5</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>28</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>37</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>63</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>66</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>79</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>100</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>105</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>111</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>6</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>21</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>40</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>57</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>97</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>102</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>130</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>134</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>142</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>7</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>18</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>49</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>65</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>106</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>107</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>113</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>127</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>133</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>143</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>8</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>70</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>90</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>112</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>126</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>9</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>73</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>82</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>132</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>138</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>144</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>10</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>41</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>42</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>47</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>60</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>69</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>11</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>46</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>71</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>75</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>88</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>91</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>92</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>94</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>109</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>120</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>124</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>12</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>50</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>62</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>72</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>78</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>83</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>118</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>121</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>136</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>141</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>13</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>27</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>30</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>32</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>59</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>64</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>68</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>116</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>14</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>19</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>22</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>25</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>34</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>39</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>52</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>76</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>80</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>98</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>15</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>95</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>101</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>16</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>31</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>44</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>48</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>58</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>61</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>81</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>96</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>108</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>115</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>122</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>131</td>
+        
+        </tr>
+    
+        <tr>
+        
+            <td>a</td>
+        
+            <td>137</td>
+        
+        </tr>
+    
+    </table>
+
+    <div id="filter-template" style="display: none">
+        <select name="filter-col" required>
+            <option value="" disabled selected hidden>Column</option>
+        
+            <option value="aaa">aaa</option>
+        
+            <option value="pos">pos</option>
+        
+        </select>
+        <select name="filter-op" required>
+        
+            <option value="eq">=</option>
+        
+            <option value="ne">≠</option>
+        
+            <option value="lt">&lt;</option>
+        
+            <option value="gt">&gt;</option>
+        
+            <option value="le">≤</option>
+        
+            <option value="ge">≥</option>
+        
+            <option value="like">like</option>
+        
+            <option value="unlike">unlike</option>
+        
+        </select>
+        <input type="text" name="filter-val" placeholder="Value">
+        <input type="button" onclick="this.parentNode.remove()" value="-">
+    </div>
+
+    <div id="order-template" style="display: none">
+        <select name="order-col" required>
+            <option value="" disabled selected hidden>Column</option>
+        
+            <option value="aaa">aaa</option>
+        
+            <option value="pos">pos</option>
+        
+        </select>
+        <select name="order-od">
+            <option value="asc" selected>ascending</option>
+            <option value="desc">descending</option>
+        </select>
+        <input type="button" onclick="this.parentNode.remove()" value="-">
+    </div>
+
+    <form method="post" action="/view/686220e0-6aa2-47d2-849d-7cbc2b05799e">
+    <div id="filters">
+    <h3>Filters <input type="button" onclick="add_filter()" value="+"></h3>
+    
+    </div>
+
+    <div id="orders">
+    <h3>Orders <input type="button" onclick="add_order()" value="+"></h3>
+    
+        <div>
+            <select name="order-col">
+            
+                <option value="aaa" selected>aaa</option>
+            
+                <option value="pos">pos</option>
+            
+            </select>
+            <select name="order-od">
+                <option value="asc">ascending</option>
+                <option value="desc">descending</option>
+            </select>
+            <input type="button" onclick="this.parentNode.remove()" value="-">
+        </div>
+    
+    </div>
+    <br><br>
+    <input type="submit" value="Perform query">
+    </form>
+</body>
+</html>

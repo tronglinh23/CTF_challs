@@ -227,6 +227,7 @@ def create():
 
         database.create_table("license", ["key"])
         key = os.urandom(128).hex()
+        print(key, flush=True)
         database.insert_row("license", [key])
 
     except Exception:
